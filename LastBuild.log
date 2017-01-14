@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\datalogic-xamarin-sdk.shfbproj" started="1/12/2017 4:04:50 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\datalogic-xamarin-sdk.shfbproj" started="1/13/2017 4:03:34 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -33,11 +33,11 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0200
+</plugIn>    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -49,7 +49,7 @@ Adding ignored assembly names to assembly resolver configuration:
     Mono.Android
     System.Runtime.Serialization
 </plugIn>[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 1/12/2017 4:04:58 PM.
+Build started 1/13/2017 4:03:35 PM.
 The target &quot;_ConvertPdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectPdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectMdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot; does not exist in the project, and will be ignored.
@@ -73,13 +73,13 @@ Done Building Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamar
 
 Build succeeded.
 
-Time Elapsed 00:00:00.92
-    Last step completed in 00:00:01.0400
+Time Elapsed 00:00:00.97
+    Last step completed in 00:00:01.0950
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 1/12/2017 4:04:59 PM.
+Build started 1/13/2017 4:03:36 PM.
 Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -117,17 +117,17 @@ Done Building Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamar
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
-    Last step completed in 00:00:00.7860
+Time Elapsed 00:00:00.77
+    Last step completed in 00:00:00.8510
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0500
+    Last step completed in 00:00:00.0480
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -136,7 +136,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 1/12/2017 4:05:00 PM.
+Build started 1/13/2017 4:03:37 PM.
 Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -149,7 +149,7 @@ Build succeeded.
 
 Time Elapsed 00:00:00.12
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1800
+    Last step completed in 00:00:00.1990
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
@@ -161,12 +161,12 @@ Merging custom build component configurations
 C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 1/12/2017 4:05:01 PM.
+Build started 1/13/2017 4:03:38 PM.
 Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -182,12 +182,12 @@ Done Building Project &quot;C:\Users\cbrookshear\Development\git\datalogic-xamar
 
 Build succeeded.
 
-Time Elapsed 00:00:16.67
-    Last step completed in 00:00:16.7740
+Time Elapsed 00:00:17.47
+    Last step completed in 00:00:17.5750
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -203,7 +203,7 @@ Processed 1450 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\cbrookshear\Development\git\datalogic-xamarin-sdk\datalogic-xamarin-sdk\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:03.9340
+    Last step completed in 00:00:03.9310
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -293,7 +293,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.0200
+</plugIn>    Last step completed in 00:00:07.0440
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -302,11 +302,15 @@ Copied 500 files
 Copied 1000 files
 Copied 1500 files
 Copied 1774 files for the website content
-    Last step completed in 00:00:01.9270
+    Last step completed in 00:00:01.8430
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.2550
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/12/2017 4:05:31 PM.  Total time: 00:00:40.4590
+Build completed successfully at 1/13/2017 4:04:09 PM.  Total time: 00:00:34.8370
 
 </buildStep>
 </shfbBuild>

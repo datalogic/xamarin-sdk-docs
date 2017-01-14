@@ -2050,11 +2050,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_Configuration_QRCode.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_Configuration_QRCode.htm" />
   </HelpKINode>
-  <HelpKINode Title="QrCode property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_QrCode.htm" />
   <HelpKINode Title="Qrcode property">
     <HelpKINode Title="BarcodeID.Qrcode Property " Url="html/P_Com_Datalogic_Decode_BarcodeID_Qrcode.htm" />
     <HelpKINode Title="Symbology.Qrcode Property " Url="html/P_Com_Datalogic_Decode_Symbology_Qrcode.htm" />
   </HelpKINode>
+  <HelpKINode Title="QrCode property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_QrCode.htm" />
   <HelpKINode Title="QRCode.QRCode constructor" Url="html/M_Com_Datalogic_Decode_Configuration_QRCode__ctor.htm" />
   <HelpKINode Title="QrcodeEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_QrcodeEnable.htm" />
   <HelpKINode Title="QrcodeLength1 field" Url="html/F_Com_Datalogic_Decode_PropertyID_QrcodeLength1.htm" />
@@ -2466,11 +2466,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_Configuration_UpcE.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_Configuration_UpcE.htm" />
   </HelpKINode>
+  <HelpKINode Title="UpcE property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_UpcE.htm" />
   <HelpKINode Title="Upce property">
     <HelpKINode Title="BarcodeID.Upce Property " Url="html/P_Com_Datalogic_Decode_BarcodeID_Upce.htm" />
     <HelpKINode Title="Symbology.Upce Property " Url="html/P_Com_Datalogic_Decode_Symbology_Upce.htm" />
   </HelpKINode>
-  <HelpKINode Title="UpcE property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_UpcE.htm" />
   <HelpKINode Title="UpcE.ConvertToUpcA property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_ConvertToUpcA.htm" />
   <HelpKINode Title="UpcE.SendChecksum property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_SendChecksum.htm" />
   <HelpKINode Title="UpcE.SendSystemDigit property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_SendSystemDigit.htm" />
