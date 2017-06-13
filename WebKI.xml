@@ -7,6 +7,16 @@
   <HelpKINode Title="ActionDeviceInfo field" Url="html/F_Com_Datalogic_Device_Info_SYSTEM_Version_ActionDeviceInfo.htm" />
   <HelpKINode Title="ActionStartDecode field" Url="html/F_Com_Datalogic_Decode_BarcodeManager_ActionStartDecode.htm" />
   <HelpKINode Title="ActionStopDecode field" Url="html/F_Com_Datalogic_Decode_BarcodeManager_ActionStopDecode.htm" />
+  <HelpKINode Title="ActionType class">
+    <HelpKINode Title="ActionType Class" Url="html/T_Com_Datalogic_Softspot_ActionType.htm" />
+    <HelpKINode Title="about ActionType class" Url="html/T_Com_Datalogic_Softspot_ActionType.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Softspot_ActionType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Softspot_ActionType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ActionType.Application property" Url="html/P_Com_Datalogic_Softspot_ActionType_Application.htm" />
+  <HelpKINode Title="ActionType.Scan property" Url="html/P_Com_Datalogic_Softspot_ActionType_Scan.htm" />
+  <HelpKINode Title="ActionType.ValueOf method" Url="html/M_Com_Datalogic_Softspot_ActionType_ValueOf.htm" />
+  <HelpKINode Title="ActionType.Values method" Url="html/M_Com_Datalogic_Softspot_ActionType_Values.htm" />
   <HelpKINode Title="ActivateWakeup method" Url="html/M_Com_Datalogic_Device_Power_PowerManager_ActivateWakeup.htm" />
   <HelpKINode Title="AddReadListener method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_AddReadListener.htm" />
   <HelpKINode Title="AddStartListener method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_AddStartListener.htm" />
@@ -16,10 +26,19 @@
   <HelpKINode Title="AimEnable property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerOptions_AimEnable.htm" />
   <HelpKINode Title="AimIdentifierBeforeLabel property" Url="html/P_Com_Datalogic_Decode_Configuration_SendCodeID_AimIdentifierBeforeLabel.htm" />
   <HelpKINode Title="AlphaNumeric property" Url="html/P_Com_Datalogic_Device_Info_KeyboardType_AlphaNumeric.htm" />
+  <HelpKINode Title="Application property" Url="html/P_Com_Datalogic_Softspot_ActionType_Application.htm" />
   <HelpKINode Title="AreExceptionsEnabled method" Url="html/M_Com_Datalogic_Device_ErrorManager_AreExceptionsEnabled.htm" />
   <HelpKINode Title="AudioFile property" Url="html/P_Com_Datalogic_Decode_Configuration_ToneNotificationMode_AudioFile.htm" />
   <HelpKINode Title="AustralianCodeUserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_AustralianCodeUserId.htm" />
   <HelpKINode Title="AustralianPostEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_AustralianPostEnable.htm" />
+  <HelpKINode Title="AutoScanTriggerRange class">
+    <HelpKINode Title="AutoScanTriggerRange Class" Url="html/T_Com_Datalogic_Device_Input_AutoScanTriggerRange.htm" />
+    <HelpKINode Title="about AutoScanTriggerRange class" Url="html/T_Com_Datalogic_Device_Input_AutoScanTriggerRange.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Input_AutoScanTriggerRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AutoScanTriggerRange.Id property" Url="html/P_Com_Datalogic_Device_Input_AutoScanTriggerRange_Id.htm" />
+  <HelpKINode Title="AutoScanTriggerRange.Name property" Url="html/P_Com_Datalogic_Device_Input_AutoScanTriggerRange_Name.htm" />
+  <HelpKINode Title="AvailableTriggers property" Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_AvailableTriggers.htm" />
   <HelpKINode Title="Aztec class">
     <HelpKINode Title="Aztec Class" Url="html/T_Com_Datalogic_Decode_Configuration_Aztec.htm" />
     <HelpKINode Title="about Aztec class" Url="html/T_Com_Datalogic_Decode_Configuration_Aztec.htm" />
@@ -47,7 +66,9 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_BarcodeDefaults.htm" />
   </HelpKINode>
   <HelpKINode Title="BarcodeDefaults.BarcodeDefaults constructor" Url="html/M_Com_Datalogic_Decode_BarcodeDefaults__ctor.htm" />
+  <HelpKINode Title="BarcodeDefaults.GetPropertyAvailability method" Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyAvailability.htm" />
   <HelpKINode Title="BarcodeDefaults.GetPropertyInts method" Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyInts.htm" />
+  <HelpKINode Title="BarcodeDefaults.GetPropertyRanges method" Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyRanges.htm" />
   <HelpKINode Title="BarcodeDefaults.GetPropertyStrings method" Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyStrings.htm" />
   <HelpKINode Title="BarcodeID class">
     <HelpKINode Title="BarcodeID Class" Url="html/T_Com_Datalogic_Decode_BarcodeID.htm" />
@@ -120,7 +141,9 @@
   <HelpKINode Title="BarcodeManager.CommitProperties method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_CommitProperties.htm" />
   <HelpKINode Title="BarcodeManager.EnableAllSymbologies method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_EnableAllSymbologies.htm" />
   <HelpKINode Title="BarcodeManager.EnableSymbology method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_EnableSymbology.htm" />
+  <HelpKINode Title="BarcodeManager.GetPropertyAvailability method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyAvailability.htm" />
   <HelpKINode Title="BarcodeManager.GetPropertyInts method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyInts.htm" />
+  <HelpKINode Title="BarcodeManager.GetPropertyRanges method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyRanges.htm" />
   <HelpKINode Title="BarcodeManager.GetPropertyStrings method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyStrings.htm" />
   <HelpKINode Title="BarcodeManager.IsSymbologyEnabled method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_IsSymbologyEnabled.htm" />
   <HelpKINode Title="BarcodeManager.IsSymbologySupported method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_IsSymbologySupported.htm" />
@@ -188,7 +211,6 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Configuration_BooleanProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="BooleanProperty.BooleanProperty constructor" Url="html/M_Com_Datalogic_Device_Configuration_BooleanProperty__ctor.htm" />
-  <HelpKINode Title="BooleanProperty.Set method" Url="html/Overload_Com_Datalogic_Device_Configuration_BooleanProperty_Set.htm" />
   <HelpKINode Title="BootType class">
     <HelpKINode Title="BootType Class" Url="html/T_Com_Datalogic_Device_BootType.htm" />
     <HelpKINode Title="about BootType class" Url="html/T_Com_Datalogic_Device_BootType.htm" />
@@ -333,6 +355,7 @@
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.Code93 class" Url="html/T_Com_Datalogic_Decode_Configuration_Code93.htm" />
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.Datamatrix class" Url="html/T_Com_Datalogic_Decode_Configuration_Datamatrix.htm" />
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.DecodingNotification class" Url="html/T_Com_Datalogic_Decode_Configuration_DecodingNotification.htm" />
+  <HelpKINode Title="Com.Datalogic.Decode.Configuration.Digimarc class" Url="html/T_Com_Datalogic_Decode_Configuration_Digimarc.htm" />
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.Discrete25 class" Url="html/T_Com_Datalogic_Decode_Configuration_Discrete25.htm" />
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.DisplayNotification class" Url="html/T_Com_Datalogic_Decode_Configuration_DisplayNotification.htm" />
   <HelpKINode Title="Com.Datalogic.Decode.Configuration.Ean13 class" Url="html/T_Com_Datalogic_Decode_Configuration_Ean13.htm" />
@@ -403,6 +426,9 @@
   <HelpKINode Title="Com.Datalogic.Device.Info.SYSTEM.Version class" Url="html/T_Com_Datalogic_Device_Info_SYSTEM_Version.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Info.WiFiType class" Url="html/T_Com_Datalogic_Device_Info_WiFiType.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Input namespace" Url="html/N_Com_Datalogic_Device_Input.htm" />
+  <HelpKINode Title="Com.Datalogic.Device.Input.AutoScanTriggerRange class" Url="html/T_Com_Datalogic_Device_Input_AutoScanTriggerRange.htm" />
+  <HelpKINode Title="Com.Datalogic.Device.Input.IAutoScanTrigger interface" Url="html/T_Com_Datalogic_Device_Input_IAutoScanTrigger.htm" />
+  <HelpKINode Title="Com.Datalogic.Device.Input.ITrigger interface" Url="html/T_Com_Datalogic_Device_Input_ITrigger.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Input.KeyboardManager class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Input.KeyboardManager.VScanCode class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager_VScanCode.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Input.KeyCodeEntry class" Url="html/T_Com_Datalogic_Device_Input_KeyCodeEntry.htm" />
@@ -421,6 +447,10 @@
   <HelpKINode Title="Com.Datalogic.Device.Power.SuspendTimeout class" Url="html/T_Com_Datalogic_Device_Power_SuspendTimeout.htm" />
   <HelpKINode Title="Com.Datalogic.Device.Power.WakeupSource class" Url="html/T_Com_Datalogic_Device_Power_WakeupSource.htm" />
   <HelpKINode Title="Com.Datalogic.Softspot namespace" Url="html/N_Com_Datalogic_Softspot.htm" />
+  <HelpKINode Title="Com.Datalogic.Softspot.ActionType class" Url="html/T_Com_Datalogic_Softspot_ActionType.htm" />
+  <HelpKINode Title="Com.Datalogic.Softspot.DecodedDuration class" Url="html/T_Com_Datalogic_Softspot_DecodedDuration.htm" />
+  <HelpKINode Title="Com.Datalogic.Softspot.ImageEnum class" Url="html/T_Com_Datalogic_Softspot_ImageEnum.htm" />
+  <HelpKINode Title="Com.Datalogic.Softspot.ImageState class" Url="html/T_Com_Datalogic_Softspot_ImageState.htm" />
   <HelpKINode Title="Com.Datalogic.Softspot.SoftSpot class" Url="html/T_Com_Datalogic_Softspot_SoftSpot.htm" />
   <HelpKINode Title="Com.Datalogic.Softspot.SoftSpot.Point class" Url="html/T_Com_Datalogic_Softspot_SoftSpot_Point.htm" />
   <HelpKINode Title="CommitError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_CommitError.htm" />
@@ -447,6 +477,7 @@
   <HelpKINode Title="ConfigException.NullPointerError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_NullPointerError.htm" />
   <HelpKINode Title="ConfigException.RemoteCallError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_RemoteCallError.htm" />
   <HelpKINode Title="ConfigException.Success field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_Success.htm" />
+  <HelpKINode Title="ConfigException.SupportError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_SupportError.htm" />
   <HelpKINode Title="ConfigException.ValueError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_ValueError.htm" />
   <HelpKINode Title="ConvertToCLSI property" Url="html/P_Com_Datalogic_Decode_Configuration_Codabar_ConvertToCLSI.htm" />
   <HelpKINode Title="ConvertToEan13 property">
@@ -481,6 +512,20 @@
   <HelpKINode Title="DatamatrixLength2 field" Url="html/F_Com_Datalogic_Decode_PropertyID_DatamatrixLength2.htm" />
   <HelpKINode Title="DatamatrixLengthControl field" Url="html/F_Com_Datalogic_Decode_PropertyID_DatamatrixLengthControl.htm" />
   <HelpKINode Title="DatamatrixUserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_DatamatrixUserId.htm" />
+  <HelpKINode Title="Decoded property" Url="html/P_Com_Datalogic_Softspot_ImageState_Decoded.htm" />
+  <HelpKINode Title="DecodedDuration class">
+    <HelpKINode Title="DecodedDuration Class" Url="html/T_Com_Datalogic_Softspot_DecodedDuration.htm" />
+    <HelpKINode Title="about DecodedDuration class" Url="html/T_Com_Datalogic_Softspot_DecodedDuration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Softspot_DecodedDuration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Softspot_DecodedDuration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecodedDuration.Sec0 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec0.htm" />
+  <HelpKINode Title="DecodedDuration.Sec1 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec1.htm" />
+  <HelpKINode Title="DecodedDuration.Sec2 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec2.htm" />
+  <HelpKINode Title="DecodedDuration.Sec3 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec3.htm" />
+  <HelpKINode Title="DecodedDuration.Sec4 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec4.htm" />
+  <HelpKINode Title="DecodedDuration.ValueOf method" Url="html/M_Com_Datalogic_Softspot_DecodedDuration_ValueOf.htm" />
+  <HelpKINode Title="DecodedDuration.Values method" Url="html/M_Com_Datalogic_Softspot_DecodedDuration_Values.htm" />
   <HelpKINode Title="DecodeException class">
     <HelpKINode Title="DecodeException Class" Url="html/T_Com_Datalogic_Decode_DecodeException.htm" />
     <HelpKINode Title="about DecodeException class" Url="html/T_Com_Datalogic_Decode_DecodeException.htm" />
@@ -503,7 +548,6 @@
     <HelpKINode Title="DecodeException.DecoderBusyError Field" Url="html/F_Com_Datalogic_Decode_DecodeException_DecoderBusyError.htm" />
   </HelpKINode>
   <HelpKINode Title="DecoderCannotStart field" Url="html/F_Com_Datalogic_Decode_DecodeException_DecoderCannotStart.htm" />
-  <HelpKINode Title="DecodeResult property" Url="html/P_Com_Datalogic_Decode_ReadEventArgs_DecodeResult.htm" />
   <HelpKINode Title="DecoderNotAvailableError field" Url="html/F_Com_Datalogic_Decode_DecodeException_DecoderNotAvailableError.htm" />
   <HelpKINode Title="DecodeTimeout field" Url="html/F_Com_Datalogic_Decode_PropertyID_DecodeTimeout.htm" />
   <HelpKINode Title="DecodeTimeout property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerOptions_DecodeTimeout.htm" />
@@ -545,6 +589,20 @@
   <HelpKINode Title="DeviceSdkVersion property" Url="html/P_Com_Datalogic_Device_Info_SYSTEM_DeviceSdkVersion.htm" />
   <HelpKINode Title="DeviceSdkVersionInt property" Url="html/P_Com_Datalogic_Device_Info_SYSTEM_DeviceSdkVersionInt.htm" />
   <HelpKINode Title="DeviceServiceError field" Url="html/F_Com_Datalogic_Device_DeviceException_DeviceServiceError.htm" />
+  <HelpKINode Title="Digimarc class">
+    <HelpKINode Title="Digimarc Class" Url="html/T_Com_Datalogic_Decode_Configuration_Digimarc.htm" />
+    <HelpKINode Title="about Digimarc class" Url="html/T_Com_Datalogic_Decode_Configuration_Digimarc.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Com_Datalogic_Decode_Configuration_Digimarc__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_Configuration_Digimarc.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_Configuration_Digimarc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Digimarc property">
+    <HelpKINode Title="ScannerProperties.Digimarc Property " Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Digimarc.htm" />
+    <HelpKINode Title="Symbology.Digimarc Property " Url="html/P_Com_Datalogic_Decode_Symbology_Digimarc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Digimarc.Digimarc constructor" Url="html/M_Com_Datalogic_Decode_Configuration_Digimarc__ctor.htm" />
+  <HelpKINode Title="Digimarc.Enable property" Url="html/P_Com_Datalogic_Decode_Configuration_Digimarc_Enable.htm" />
+  <HelpKINode Title="DigimarcEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_DigimarcEnable.htm" />
   <HelpKINode Title="DisableKey method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_DisableKey.htm" />
   <HelpKINode Title="Discrete25 class">
     <HelpKINode Title="Discrete25 Class" Url="html/T_Com_Datalogic_Decode_Configuration_Discrete25.htm" />
@@ -625,6 +683,7 @@
   <HelpKINode Title="EBusiness property" Url="html/P_Com_Datalogic_Device_Info_KeyboardType_EBusiness.htm" />
   <HelpKINode Title="Edit method" Url="html/M_Com_Datalogic_Decode_Configuration_ScannerProperties_Edit.htm" />
   <HelpKINode Title="Enable property">
+    <HelpKINode Title="Digimarc.Enable Property " Url="html/P_Com_Datalogic_Decode_Configuration_Digimarc_Enable.htm" />
     <HelpKINode Title="DisplayNotification.Enable Property " Url="html/P_Com_Datalogic_Decode_Configuration_DisplayNotification_Enable.htm" />
     <HelpKINode Title="IntentWedge.Enable Property " Url="html/P_Com_Datalogic_Decode_Configuration_IntentWedge_Enable.htm" />
     <HelpKINode Title="KeyboardWedge.Enable Property " Url="html/P_Com_Datalogic_Decode_Configuration_KeyboardWedge_Enable.htm" />
@@ -706,13 +765,24 @@
     <HelpKINode Title="DeviceException.GenericError Field" Url="html/F_Com_Datalogic_Device_DeviceException_GenericError.htm" />
   </HelpKINode>
   <HelpKINode Title="Get method" Url="html/M_Com_Datalogic_Device_Configuration_Property_Get.htm" />
+  <HelpKINode Title="GetImage method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_GetImage.htm" />
   <HelpKINode Title="GetIntent method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_GetIntent.htm" />
   <HelpKINode Title="GetKeyboardLayout method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_GetKeyboardLayout.htm" />
   <HelpKINode Title="GetKeyCode method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_GetKeyCode.htm" />
+  <HelpKINode Title="GetPropertyAvailability method">
+    <HelpKINode Title="BarcodeDefaults.GetPropertyAvailability Method " Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyAvailability.htm" />
+    <HelpKINode Title="BarcodeManager.GetPropertyAvailability Method " Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyAvailability.htm" />
+    <HelpKINode Title="IPropertyGetter.GetPropertyAvailability Method " Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyAvailability.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetPropertyInts method">
     <HelpKINode Title="BarcodeDefaults.GetPropertyInts Method " Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyInts.htm" />
     <HelpKINode Title="BarcodeManager.GetPropertyInts Method " Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyInts.htm" />
     <HelpKINode Title="IPropertyGetter.GetPropertyInts Method " Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyInts.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPropertyRanges method">
+    <HelpKINode Title="BarcodeDefaults.GetPropertyRanges Method " Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyRanges.htm" />
+    <HelpKINode Title="BarcodeManager.GetPropertyRanges Method " Url="html/M_Com_Datalogic_Decode_BarcodeManager_GetPropertyRanges.htm" />
+    <HelpKINode Title="IPropertyGetter.GetPropertyRanges Method " Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyRanges.htm" />
   </HelpKINode>
   <HelpKINode Title="GetPropertyStrings method">
     <HelpKINode Title="BarcodeDefaults.GetPropertyStrings Method " Url="html/M_Com_Datalogic_Decode_BarcodeDefaults_GetPropertyStrings.htm" />
@@ -754,6 +824,8 @@
   <HelpKINode Title="GoodReadLedEnable property" Url="html/P_Com_Datalogic_Decode_Configuration_GoodRead_GoodReadLedEnable.htm" />
   <HelpKINode Title="GoodReadVibrateEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_GoodReadVibrateEnable.htm" />
   <HelpKINode Title="GoodReadVibrateEnable property" Url="html/P_Com_Datalogic_Decode_Configuration_GoodRead_GoodReadVibrateEnable.htm" />
+  <HelpKINode Title="GreenBarcode property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_GreenBarcode.htm" />
+  <HelpKINode Title="GreenBarcodeNumeric property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_GreenBarcodeNumeric.htm" />
   <HelpKINode Title="GreenSpotEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_GreenSpotEnable.htm" />
   <HelpKINode Title="GreenSpotEnable property" Url="html/P_Com_Datalogic_Decode_Configuration_GoodRead_GreenSpotEnable.htm" />
   <HelpKINode Title="Groups property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_Groups.htm" />
@@ -821,7 +893,19 @@
   <HelpKINode Title="I25LengthControl field" Url="html/F_Com_Datalogic_Decode_PropertyID_I25LengthControl.htm" />
   <HelpKINode Title="I25SendCheck field" Url="html/F_Com_Datalogic_Decode_PropertyID_I25SendCheck.htm" />
   <HelpKINode Title="I25UserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_I25UserId.htm" />
-  <HelpKINode Title="Id property" Url="html/P_Com_Datalogic_Device_Configuration_Property_Id.htm" />
+  <HelpKINode Title="IAutoScanTrigger interface">
+    <HelpKINode Title="IAutoScanTrigger Interface" Url="html/T_Com_Datalogic_Device_Input_IAutoScanTrigger.htm" />
+    <HelpKINode Title="about IAutoScanTrigger interface" Url="html/T_Com_Datalogic_Device_Input_IAutoScanTrigger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Device_Input_IAutoScanTrigger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Input_IAutoScanTrigger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAutoScanTrigger.SetCurrentRange method" Url="html/M_Com_Datalogic_Device_Input_IAutoScanTrigger_SetCurrentRange.htm" />
+  <HelpKINode Title="IAutoScanTrigger.SupportedRanges property" Url="html/P_Com_Datalogic_Device_Input_IAutoScanTrigger_SupportedRanges.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="AutoScanTriggerRange.Id Property " Url="html/P_Com_Datalogic_Device_Input_AutoScanTriggerRange_Id.htm" />
+    <HelpKINode Title="ITrigger.Id Property " Url="html/P_Com_Datalogic_Device_Input_ITrigger_Id.htm" />
+    <HelpKINode Title="Property.Id Property " Url="html/P_Com_Datalogic_Device_Configuration_Property_Id.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDecodeResult interface">
     <HelpKINode Title="IDecodeResult Interface" Url="html/T_Com_Datalogic_Decode_IDecodeResult.htm" />
     <HelpKINode Title="about IDecodeResult interface" Url="html/T_Com_Datalogic_Decode_IDecodeResult.htm" />
@@ -834,6 +918,27 @@
   <HelpKINode Title="IdError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_IdError.htm" />
   <HelpKINode Title="IlluminationEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_IlluminationEnable.htm" />
   <HelpKINode Title="IlluminationEnable property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerOptions_IlluminationEnable.htm" />
+  <HelpKINode Title="ImageEnum class">
+    <HelpKINode Title="ImageEnum Class" Url="html/T_Com_Datalogic_Softspot_ImageEnum.htm" />
+    <HelpKINode Title="about ImageEnum class" Url="html/T_Com_Datalogic_Softspot_ImageEnum.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Softspot_ImageEnum.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Softspot_ImageEnum.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImageEnum.GreenBarcode property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_GreenBarcode.htm" />
+  <HelpKINode Title="ImageEnum.GreenBarcodeNumeric property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_GreenBarcodeNumeric.htm" />
+  <HelpKINode Title="ImageEnum.RedTarget property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_RedTarget.htm" />
+  <HelpKINode Title="ImageEnum.ValueOf method" Url="html/M_Com_Datalogic_Softspot_ImageEnum_ValueOf.htm" />
+  <HelpKINode Title="ImageEnum.Values method" Url="html/M_Com_Datalogic_Softspot_ImageEnum_Values.htm" />
+  <HelpKINode Title="ImageState class">
+    <HelpKINode Title="ImageState Class" Url="html/T_Com_Datalogic_Softspot_ImageState.htm" />
+    <HelpKINode Title="about ImageState class" Url="html/T_Com_Datalogic_Softspot_ImageState.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Softspot_ImageState.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Softspot_ImageState.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImageState.Decoded property" Url="html/P_Com_Datalogic_Softspot_ImageState_Decoded.htm" />
+  <HelpKINode Title="ImageState.Normal property" Url="html/P_Com_Datalogic_Softspot_ImageState_Normal.htm" />
+  <HelpKINode Title="ImageState.ValueOf method" Url="html/M_Com_Datalogic_Softspot_ImageState_ValueOf.htm" />
+  <HelpKINode Title="ImageState.Values method" Url="html/M_Com_Datalogic_Softspot_ImageState_Values.htm" />
   <HelpKINode Title="InputServiceError field" Url="html/F_Com_Datalogic_Device_DeviceException_InputServiceError.htm" />
   <HelpKINode Title="IntentDeliveryMode class">
     <HelpKINode Title="IntentDeliveryMode Class" Url="html/T_Com_Datalogic_Decode_Configuration_IntentDeliveryMode.htm" />
@@ -891,7 +996,9 @@
     <HelpKINode Title="about IPropertyGetter interface" Url="html/T_Com_Datalogic_Device_Configuration_IPropertyGetter.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Device_Configuration_IPropertyGetter.htm" />
   </HelpKINode>
+  <HelpKINode Title="IPropertyGetter.GetPropertyAvailability method" Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyAvailability.htm" />
   <HelpKINode Title="IPropertyGetter.GetPropertyInts method" Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyInts.htm" />
+  <HelpKINode Title="IPropertyGetter.GetPropertyRanges method" Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyRanges.htm" />
   <HelpKINode Title="IPropertyGetter.GetPropertyStrings method" Url="html/M_Com_Datalogic_Device_Configuration_IPropertyGetter_GetPropertyStrings.htm" />
   <HelpKINode Title="IReadListener interface">
     <HelpKINode Title="IReadListener Interface" Url="html/T_Com_Datalogic_Decode_IReadListener.htm" />
@@ -899,10 +1006,13 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_IReadListener.htm" />
   </HelpKINode>
   <HelpKINode Title="IReadListener.OnRead method" Url="html/M_Com_Datalogic_Decode_IReadListener_OnRead.htm" />
+  <HelpKINode Title="IsEnabled property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_IsEnabled.htm" />
+  <HelpKINode Title="IsFullySupported property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_IsFullySupported.htm" />
   <HelpKINode Title="IsInputLocked property">
     <HelpKINode Title="KeyboardManager.IsInputLocked Property " Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_IsInputLocked.htm" />
     <HelpKINode Title="TouchManager.IsInputLocked Property " Url="html/P_Com_Datalogic_Device_Input_TouchManager_IsInputLocked.htm" />
   </HelpKINode>
+  <HelpKINode Title="IsKeyDisabled method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_IsKeyDisabled.htm" />
   <HelpKINode Title="IsSupported property">
     <HelpKINode Title="Property.IsSupported Property " Url="html/P_Com_Datalogic_Device_Configuration_Property_IsSupported.htm" />
     <HelpKINode Title="PropertyGroup.IsSupported Property " Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_IsSupported.htm" />
@@ -929,15 +1039,28 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_ITimeoutListener.htm" />
   </HelpKINode>
   <HelpKINode Title="ITimeoutListener.OnScanTimeout method" Url="html/M_Com_Datalogic_Decode_ITimeoutListener_OnScanTimeout.htm" />
+  <HelpKINode Title="ITrigger interface">
+    <HelpKINode Title="ITrigger Interface" Url="html/T_Com_Datalogic_Device_Input_ITrigger.htm" />
+    <HelpKINode Title="about ITrigger interface" Url="html/T_Com_Datalogic_Device_Input_ITrigger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Device_Input_ITrigger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Input_ITrigger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITrigger.Id property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_Id.htm" />
+  <HelpKINode Title="ITrigger.IsEnabled property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_IsEnabled.htm" />
+  <HelpKINode Title="ITrigger.Name property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_Name.htm" />
+  <HelpKINode Title="ITrigger.ScanCode property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_ScanCode.htm" />
+  <HelpKINode Title="ITrigger.SetEnabled method" Url="html/M_Com_Datalogic_Device_Input_ITrigger_SetEnabled.htm" />
   <HelpKINode Title="JapanesePostCodeUserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_JapanesePostCodeUserId.htm" />
   <HelpKINode Title="JapanesePostEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_JapanesePostEnable.htm" />
   <HelpKINode Title="KeyboardManager class">
     <HelpKINode Title="KeyboardManager Class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
     <HelpKINode Title="about KeyboardManager class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
     <HelpKINode Title="constructor" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Input_KeyboardManager.htm" />
   </HelpKINode>
+  <HelpKINode Title="KeyboardManager.AvailableTriggers property" Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_AvailableTriggers.htm" />
   <HelpKINode Title="KeyboardManager.ClearAllMappings method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_ClearAllMappings.htm" />
   <HelpKINode Title="KeyboardManager.ClearMapping method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_ClearMapping.htm" />
   <HelpKINode Title="KeyboardManager.DisableKey method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_DisableKey.htm" />
@@ -946,6 +1069,7 @@
   <HelpKINode Title="KeyboardManager.GetKeyCode method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_GetKeyCode.htm" />
   <HelpKINode Title="KeyboardManager.GetUnicode method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_GetUnicode.htm" />
   <HelpKINode Title="KeyboardManager.IsInputLocked property" Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_IsInputLocked.htm" />
+  <HelpKINode Title="KeyboardManager.IsKeyDisabled method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_IsKeyDisabled.htm" />
   <HelpKINode Title="KeyboardManager.KeyboardManager constructor" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager__ctor.htm" />
   <HelpKINode Title="KeyboardManager.LockInput method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_LockInput.htm" />
   <HelpKINode Title="KeyboardManager.MapIntent method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_MapIntent.htm" />
@@ -954,6 +1078,11 @@
   <HelpKINode Title="KeyboardManager.MappedKeyCodes property" Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_MappedKeyCodes.htm" />
   <HelpKINode Title="KeyboardManager.MappedUnicodes property" Url="html/P_Com_Datalogic_Device_Input_KeyboardManager_MappedUnicodes.htm" />
   <HelpKINode Title="KeyboardManager.MapUnicode method" Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_MapUnicode.htm" />
+  <HelpKINode Title="KeyboardManager.TriggerIdAutoscan field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdAutoscan.htm" />
+  <HelpKINode Title="KeyboardManager.TriggerIdFront field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdFront.htm" />
+  <HelpKINode Title="KeyboardManager.TriggerIdLeft field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdLeft.htm" />
+  <HelpKINode Title="KeyboardManager.TriggerIdPistol field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdPistol.htm" />
+  <HelpKINode Title="KeyboardManager.TriggerIdRight field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdRight.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode class">
     <HelpKINode Title="KeyboardManager.VScanCode Class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager_VScanCode.htm" />
     <HelpKINode Title="about KeyboardManager.VScanCode class" Url="html/T_Com_Datalogic_Device_Input_KeyboardManager_VScanCode.htm" />
@@ -979,6 +1108,7 @@
   <HelpKINode Title="KeyboardManager.VScanCode.VscanApostrophe field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanApostrophe.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode.VscanArchive field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanArchive.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode.VscanAudio field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAudio.htm" />
+  <HelpKINode Title="KeyboardManager.VScanCode.VscanAutoscanTrigger field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAutoscanTrigger.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode.VscanAux field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAux.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode.VscanB field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanB.htm" />
   <HelpKINode Title="KeyboardManager.VScanCode.VscanBack field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanBack.htm" />
@@ -1531,10 +1661,12 @@
   <HelpKINode Title="LocationMode.ValueOf method" Url="html/M_Com_Datalogic_Device_Location_LocationMode_ValueOf.htm" />
   <HelpKINode Title="LocationMode.Values method" Url="html/M_Com_Datalogic_Device_Location_LocationMode_Values.htm" />
   <HelpKINode Title="LocationServiceError field" Url="html/F_Com_Datalogic_Device_DeviceException_LocationServiceError.htm" />
+  <HelpKINode Title="Lock method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_Lock.htm" />
   <HelpKINode Title="LockInput method">
     <HelpKINode Title="KeyboardManager.LockInput Method " Url="html/M_Com_Datalogic_Device_Input_KeyboardManager_LockInput.htm" />
     <HelpKINode Title="TouchManager.LockInput Method " Url="html/M_Com_Datalogic_Device_Input_TouchManager_LockInput.htm" />
   </HelpKINode>
+  <HelpKINode Title="LockState property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_LockState.htm" />
   <HelpKINode Title="M25Enable field" Url="html/F_Com_Datalogic_Decode_PropertyID_M25Enable.htm" />
   <HelpKINode Title="M25Length1 field" Url="html/F_Com_Datalogic_Decode_PropertyID_M25Length1.htm" />
   <HelpKINode Title="M25Length2 field" Url="html/F_Com_Datalogic_Decode_PropertyID_M25Length2.htm" />
@@ -1650,6 +1782,10 @@
   <HelpKINode Title="MsiRequire2Check field" Url="html/F_Com_Datalogic_Decode_PropertyID_MsiRequire2Check.htm" />
   <HelpKINode Title="MsiSendCheck field" Url="html/F_Com_Datalogic_Decode_PropertyID_MsiSendCheck.htm" />
   <HelpKINode Title="MsiUserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_MsiUserId.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="AutoScanTriggerRange.Name Property " Url="html/P_Com_Datalogic_Device_Input_AutoScanTriggerRange_Name.htm" />
+    <HelpKINode Title="ITrigger.Name Property " Url="html/P_Com_Datalogic_Device_Input_ITrigger_Name.htm" />
+  </HelpKINode>
   <HelpKINode Title="Network property" Url="html/P_Com_Datalogic_Device_Location_LocationMode_Network.htm" />
   <HelpKINode Title="Never property" Url="html/P_Com_Datalogic_Device_Power_SuspendTimeout_Never.htm" />
   <HelpKINode Title="NfcManager class">
@@ -1668,6 +1804,7 @@
     <HelpKINode Title="ToneNotificationMode.None Property " Url="html/P_Com_Datalogic_Decode_Configuration_ToneNotificationMode_None.htm" />
     <HelpKINode Title="WiFiType.None Property " Url="html/P_Com_Datalogic_Device_Info_WiFiType_None.htm" />
   </HelpKINode>
+  <HelpKINode Title="Normal property" Url="html/P_Com_Datalogic_Softspot_ImageState_Normal.htm" />
   <HelpKINode Title="NotDefined property" Url="html/P_Com_Datalogic_Decode_BarcodeID_NotDefined.htm" />
   <HelpKINode Title="NotificationServiceError field" Url="html/F_Com_Datalogic_Device_DeviceException_NotificationServiceError.htm" />
   <HelpKINode Title="NullPointerError field">
@@ -1695,6 +1832,7 @@
   <HelpKINode Title="OnScanStarted method" Url="html/M_Com_Datalogic_Decode_IStartListener_OnScanStarted.htm" />
   <HelpKINode Title="OnScanStopped method" Url="html/M_Com_Datalogic_Decode_IStopListener_OnScanStopped.htm" />
   <HelpKINode Title="OnScanTimeout method" Url="html/M_Com_Datalogic_Decode_ITimeoutListener_OnScanTimeout.htm" />
+  <HelpKINode Title="P0 property" Url="html/P_Com_Datalogic_Decode_ReadEventArgs_P0.htm" />
   <HelpKINode Title="P4State property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_P4State.htm" />
   <HelpKINode Title="PAus property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_PAus.htm" />
   <HelpKINode Title="Pdf417 class">
@@ -1858,6 +1996,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Device_Configuration_PropertyGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="PropertyGroup.Groups property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_Groups.htm" />
+  <HelpKINode Title="PropertyGroup.IsFullySupported property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_IsFullySupported.htm" />
   <HelpKINode Title="PropertyGroup.IsSupported property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_IsSupported.htm" />
   <HelpKINode Title="PropertyGroup.Load method" Url="html/M_Com_Datalogic_Device_Configuration_PropertyGroup_Load.htm" />
   <HelpKINode Title="PropertyGroup.Properties property" Url="html/P_Com_Datalogic_Device_Configuration_PropertyGroup_Properties.htm" />
@@ -1918,6 +2057,7 @@
   <HelpKINode Title="PropertyID.DatamatrixLengthControl field" Url="html/F_Com_Datalogic_Decode_PropertyID_DatamatrixLengthControl.htm" />
   <HelpKINode Title="PropertyID.DatamatrixUserId field" Url="html/F_Com_Datalogic_Decode_PropertyID_DatamatrixUserId.htm" />
   <HelpKINode Title="PropertyID.DecodeTimeout field" Url="html/F_Com_Datalogic_Decode_PropertyID_DecodeTimeout.htm" />
+  <HelpKINode Title="PropertyID.DigimarcEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_DigimarcEnable.htm" />
   <HelpKINode Title="PropertyID.DisplayNotificationEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_DisplayNotificationEnable.htm" />
   <HelpKINode Title="PropertyID.Ean13Enable field" Url="html/F_Com_Datalogic_Decode_PropertyID_Ean13Enable.htm" />
   <HelpKINode Title="PropertyID.Ean13SendCheck field" Url="html/F_Com_Datalogic_Decode_PropertyID_Ean13SendCheck.htm" />
@@ -2050,11 +2190,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_Configuration_QRCode.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_Configuration_QRCode.htm" />
   </HelpKINode>
+  <HelpKINode Title="QrCode property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_QrCode.htm" />
   <HelpKINode Title="Qrcode property">
     <HelpKINode Title="BarcodeID.Qrcode Property " Url="html/P_Com_Datalogic_Decode_BarcodeID_Qrcode.htm" />
     <HelpKINode Title="Symbology.Qrcode Property " Url="html/P_Com_Datalogic_Decode_Symbology_Qrcode.htm" />
   </HelpKINode>
-  <HelpKINode Title="QrCode property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_QrCode.htm" />
   <HelpKINode Title="QRCode.QRCode constructor" Url="html/M_Com_Datalogic_Decode_Configuration_QRCode__ctor.htm" />
   <HelpKINode Title="QrcodeEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_QrcodeEnable.htm" />
   <HelpKINode Title="QrcodeLength1 field" Url="html/F_Com_Datalogic_Decode_PropertyID_QrcodeLength1.htm" />
@@ -2070,9 +2210,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_ReadEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_ReadEventArgs.htm" />
   </HelpKINode>
-  <HelpKINode Title="ReadEventArgs.DecodeResult property" Url="html/P_Com_Datalogic_Decode_ReadEventArgs_DecodeResult.htm" />
+  <HelpKINode Title="ReadEventArgs.P0 property" Url="html/P_Com_Datalogic_Decode_ReadEventArgs_P0.htm" />
   <HelpKINode Title="ReadEventArgs.ReadEventArgs constructor" Url="html/M_Com_Datalogic_Decode_ReadEventArgs__ctor.htm" />
   <HelpKINode Title="Reboot method" Url="html/M_Com_Datalogic_Device_Power_PowerManager_Reboot.htm" />
+  <HelpKINode Title="RedTarget property" Url="html/P_Com_Datalogic_Softspot_ImageEnum_RedTarget.htm" />
   <HelpKINode Title="Release method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_Release.htm" />
   <HelpKINode Title="ReleaseScan property" Url="html/P_Com_Datalogic_Decode_Configuration_BeamMode_ReleaseScan.htm" />
   <HelpKINode Title="ReleaseTrigger method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_ReleaseTrigger.htm" />
@@ -2097,6 +2238,8 @@
   <HelpKINode Title="Scale property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_Scale.htm" />
   <HelpKINode Title="ScaleMax property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_ScaleMax.htm" />
   <HelpKINode Title="ScaleMin property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_ScaleMin.htm" />
+  <HelpKINode Title="Scan property" Url="html/P_Com_Datalogic_Softspot_ActionType_Scan.htm" />
+  <HelpKINode Title="ScanCode property" Url="html/P_Com_Datalogic_Device_Input_ITrigger_ScanCode.htm" />
   <HelpKINode Title="ScannerOptions class">
     <HelpKINode Title="ScannerOptions Class" Url="html/T_Com_Datalogic_Decode_Configuration_ScannerOptions.htm" />
     <HelpKINode Title="about ScannerOptions class" Url="html/T_Com_Datalogic_Decode_Configuration_ScannerOptions.htm" />
@@ -2126,6 +2269,7 @@
   <HelpKINode Title="ScannerProperties.Code39 property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Code39.htm" />
   <HelpKINode Title="ScannerProperties.Code93 property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Code93.htm" />
   <HelpKINode Title="ScannerProperties.Datamatrix property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Datamatrix.htm" />
+  <HelpKINode Title="ScannerProperties.Digimarc property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Digimarc.htm" />
   <HelpKINode Title="ScannerProperties.Discrete25 property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Discrete25.htm" />
   <HelpKINode Title="ScannerProperties.DisplayNotification property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_DisplayNotification.htm" />
   <HelpKINode Title="ScannerProperties.Dnotification property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_Dnotification.htm" />
@@ -2162,6 +2306,11 @@
   <HelpKINode Title="SdkVersionInt field" Url="html/F_Com_Datalogic_Device_Info_SYSTEM_SdkVersionInt.htm" />
   <HelpKINode Title="SdkVersionMajor field" Url="html/F_Com_Datalogic_Device_Info_SYSTEM_Version_SdkVersionMajor.htm" />
   <HelpKINode Title="SdkVersionMinor field" Url="html/F_Com_Datalogic_Device_Info_SYSTEM_Version_SdkVersionMinor.htm" />
+  <HelpKINode Title="Sec0 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec0.htm" />
+  <HelpKINode Title="Sec1 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec1.htm" />
+  <HelpKINode Title="Sec2 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec2.htm" />
+  <HelpKINode Title="Sec3 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec3.htm" />
+  <HelpKINode Title="Sec4 property" Url="html/P_Com_Datalogic_Softspot_DecodedDuration_Sec4.htm" />
   <HelpKINode Title="Seconds15 property" Url="html/P_Com_Datalogic_Device_Power_SuspendTimeout_Seconds15.htm" />
   <HelpKINode Title="Seconds30 property" Url="html/P_Com_Datalogic_Device_Power_SuspendTimeout_Seconds30.htm" />
   <HelpKINode Title="SendChecksum property">
@@ -2202,11 +2351,14 @@
   <HelpKINode Title="ServicesVersion property" Url="html/P_Com_Datalogic_Device_Info_SYSTEM_ServicesVersion.htm" />
   <HelpKINode Title="ServicesVersionInt property" Url="html/P_Com_Datalogic_Device_Info_SYSTEM_ServicesVersionInt.htm" />
   <HelpKINode Title="Set method">
-    <HelpKINode Title="BooleanProperty.Set Method " Url="html/Overload_Com_Datalogic_Device_Configuration_BooleanProperty_Set.htm" />
     <HelpKINode Title="NumericProperty.Set Method " Url="html/Overload_Com_Datalogic_Device_Configuration_NumericProperty_Set.htm" />
     <HelpKINode Title="Property.Set Method " Url="html/M_Com_Datalogic_Device_Configuration_Property_Set.htm" />
   </HelpKINode>
+  <HelpKINode Title="SetCurrentRange method" Url="html/M_Com_Datalogic_Device_Input_IAutoScanTrigger_SetCurrentRange.htm" />
+  <HelpKINode Title="SetDecodedDuration method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetDecodedDuration.htm" />
   <HelpKINode Title="SetDefaults method" Url="html/M_Com_Datalogic_Decode_BarcodeManager_SetDefaults.htm" />
+  <HelpKINode Title="SetEnabled method" Url="html/M_Com_Datalogic_Device_Input_ITrigger_SetEnabled.htm" />
+  <HelpKINode Title="SetImage method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetImage.htm" />
   <HelpKINode Title="SetLed method" Url="html/Overload_Com_Datalogic_Device_Notification_LedManager_SetLed.htm" />
   <HelpKINode Title="SetLocationMode method" Url="html/M_Com_Datalogic_Device_Location_LocationManager_SetLocationMode.htm" />
   <HelpKINode Title="SetPropertyInts method">
@@ -2218,6 +2370,7 @@
     <HelpKINode Title="IPropertyEditor.SetPropertyStrings Method " Url="html/M_Com_Datalogic_Device_Configuration_IPropertyEditor_SetPropertyStrings.htm" />
   </HelpKINode>
   <HelpKINode Title="SetSuspendTimeout method" Url="html/M_Com_Datalogic_Device_Power_PowerManager_SetSuspendTimeout.htm" />
+  <HelpKINode Title="SetVibrator method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetVibrator.htm" />
   <HelpKINode Title="Show method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_Show.htm" />
   <HelpKINode Title="SoftSpot class">
     <HelpKINode Title="SoftSpot Class" Url="html/T_Com_Datalogic_Softspot_SoftSpot.htm" />
@@ -2228,7 +2381,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Softspot_SoftSpot.htm" />
   </HelpKINode>
   <HelpKINode Title="SoftSpot.Enabled property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_Enabled.htm" />
+  <HelpKINode Title="SoftSpot.GetImage method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_GetImage.htm" />
   <HelpKINode Title="SoftSpot.Hide method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_Hide.htm" />
+  <HelpKINode Title="SoftSpot.Lock method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_Lock.htm" />
+  <HelpKINode Title="SoftSpot.LockState property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_LockState.htm" />
   <HelpKINode Title="SoftSpot.Point class">
     <HelpKINode Title="SoftSpot.Point Class" Url="html/T_Com_Datalogic_Softspot_SoftSpot_Point.htm" />
     <HelpKINode Title="about SoftSpot.Point class" Url="html/T_Com_Datalogic_Softspot_SoftSpot_Point.htm" />
@@ -2243,6 +2399,9 @@
   <HelpKINode Title="SoftSpot.Scale property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_Scale.htm" />
   <HelpKINode Title="SoftSpot.ScaleMax property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_ScaleMax.htm" />
   <HelpKINode Title="SoftSpot.ScaleMin property" Url="html/P_Com_Datalogic_Softspot_SoftSpot_ScaleMin.htm" />
+  <HelpKINode Title="SoftSpot.SetDecodedDuration method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetDecodedDuration.htm" />
+  <HelpKINode Title="SoftSpot.SetImage method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetImage.htm" />
+  <HelpKINode Title="SoftSpot.SetVibrator method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_SetVibrator.htm" />
   <HelpKINode Title="SoftSpot.Show method" Url="html/M_Com_Datalogic_Softspot_SoftSpot_Show.htm" />
   <HelpKINode Title="SoftSpot.SoftSpot constructor" Url="html/M_Com_Datalogic_Softspot_SoftSpot__ctor.htm" />
   <HelpKINode Title="SoftSpot.TimeoutMillis field" Url="html/F_Com_Datalogic_Softspot_SoftSpot_TimeoutMillis.htm" />
@@ -2260,6 +2419,8 @@
     <HelpKINode Title="DecodeException.Success Field" Url="html/F_Com_Datalogic_Decode_DecodeException_Success.htm" />
     <HelpKINode Title="DeviceException.Success Field" Url="html/F_Com_Datalogic_Device_DeviceException_Success.htm" />
   </HelpKINode>
+  <HelpKINode Title="SupportedRanges property" Url="html/P_Com_Datalogic_Device_Input_IAutoScanTrigger_SupportedRanges.htm" />
+  <HelpKINode Title="SupportError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_SupportError.htm" />
   <HelpKINode Title="SuspendTimeout class">
     <HelpKINode Title="SuspendTimeout Class" Url="html/T_Com_Datalogic_Device_Power_SuspendTimeout.htm" />
     <HelpKINode Title="about SuspendTimeout class" Url="html/T_Com_Datalogic_Device_Power_SuspendTimeout.htm" />
@@ -2295,6 +2456,7 @@
   <HelpKINode Title="Symbology.Code39 property" Url="html/P_Com_Datalogic_Decode_Symbology_Code39.htm" />
   <HelpKINode Title="Symbology.Code93 property" Url="html/P_Com_Datalogic_Decode_Symbology_Code93.htm" />
   <HelpKINode Title="Symbology.Datamatrix property" Url="html/P_Com_Datalogic_Decode_Symbology_Datamatrix.htm" />
+  <HelpKINode Title="Symbology.Digimarc property" Url="html/P_Com_Datalogic_Decode_Symbology_Digimarc.htm" />
   <HelpKINode Title="Symbology.Discrete25 property" Url="html/P_Com_Datalogic_Decode_Symbology_Discrete25.htm" />
   <HelpKINode Title="Symbology.Ean13 property" Url="html/P_Com_Datalogic_Decode_Symbology_Ean13.htm" />
   <HelpKINode Title="Symbology.Ean8 property" Url="html/P_Com_Datalogic_Decode_Symbology_Ean8.htm" />
@@ -2422,7 +2584,13 @@
   <HelpKINode Title="TouchManager.IsInputLocked property" Url="html/P_Com_Datalogic_Device_Input_TouchManager_IsInputLocked.htm" />
   <HelpKINode Title="TouchManager.LockInput method" Url="html/M_Com_Datalogic_Device_Input_TouchManager_LockInput.htm" />
   <HelpKINode Title="TouchManager.TouchManager constructor" Url="html/M_Com_Datalogic_Device_Input_TouchManager__ctor.htm" />
+  <HelpKINode Title="TrigAutoscan property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigAutoscan.htm" />
   <HelpKINode Title="TrigFront property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigFront.htm" />
+  <HelpKINode Title="TriggerIdAutoscan field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdAutoscan.htm" />
+  <HelpKINode Title="TriggerIdFront field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdFront.htm" />
+  <HelpKINode Title="TriggerIdLeft field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdLeft.htm" />
+  <HelpKINode Title="TriggerIdPistol field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdPistol.htm" />
+  <HelpKINode Title="TriggerIdRight field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_TriggerIdRight.htm" />
   <HelpKINode Title="TrigLeft property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigLeft.htm" />
   <HelpKINode Title="TrigPistol property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigPistol.htm" />
   <HelpKINode Title="TrigRight property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigRight.htm" />
@@ -2466,11 +2634,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Com_Datalogic_Decode_Configuration_UpcE.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Com_Datalogic_Decode_Configuration_UpcE.htm" />
   </HelpKINode>
-  <HelpKINode Title="UpcE property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_UpcE.htm" />
   <HelpKINode Title="Upce property">
-    <HelpKINode Title="BarcodeID.Upce Property " Url="html/P_Com_Datalogic_Decode_BarcodeID_Upce.htm" />
     <HelpKINode Title="Symbology.Upce Property " Url="html/P_Com_Datalogic_Decode_Symbology_Upce.htm" />
+    <HelpKINode Title="BarcodeID.Upce Property " Url="html/P_Com_Datalogic_Decode_BarcodeID_Upce.htm" />
   </HelpKINode>
+  <HelpKINode Title="UpcE property" Url="html/P_Com_Datalogic_Decode_Configuration_ScannerProperties_UpcE.htm" />
   <HelpKINode Title="UpcE.ConvertToUpcA property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_ConvertToUpcA.htm" />
   <HelpKINode Title="UpcE.SendChecksum property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_SendChecksum.htm" />
   <HelpKINode Title="UpcE.SendSystemDigit property" Url="html/P_Com_Datalogic_Decode_Configuration_UpcE_SendSystemDigit.htm" />
@@ -2505,10 +2673,14 @@
   <HelpKINode Title="Usps4stateEnable field" Url="html/F_Com_Datalogic_Decode_PropertyID_Usps4stateEnable.htm" />
   <HelpKINode Title="ValueError field" Url="html/F_Com_Datalogic_Device_Configuration_ConfigException_ValueError.htm" />
   <HelpKINode Title="ValueOf method">
+    <HelpKINode Title="ActionType.ValueOf Method " Url="html/M_Com_Datalogic_Softspot_ActionType_ValueOf.htm" />
     <HelpKINode Title="BarcodeID.ValueOf Method " Url="html/M_Com_Datalogic_Decode_BarcodeID_ValueOf.htm" />
     <HelpKINode Title="BarcodeScannerType.ValueOf Method " Url="html/M_Com_Datalogic_Device_Info_BarcodeScannerType_ValueOf.htm" />
     <HelpKINode Title="BeamMode.ValueOf Method " Url="html/M_Com_Datalogic_Decode_Configuration_BeamMode_ValueOf.htm" />
     <HelpKINode Title="BootType.ValueOf Method " Url="html/M_Com_Datalogic_Device_BootType_ValueOf.htm" />
+    <HelpKINode Title="DecodedDuration.ValueOf Method " Url="html/M_Com_Datalogic_Softspot_DecodedDuration_ValueOf.htm" />
+    <HelpKINode Title="ImageEnum.ValueOf Method " Url="html/M_Com_Datalogic_Softspot_ImageEnum_ValueOf.htm" />
+    <HelpKINode Title="ImageState.ValueOf Method " Url="html/M_Com_Datalogic_Softspot_ImageState_ValueOf.htm" />
     <HelpKINode Title="IntentDeliveryMode.ValueOf Method " Url="html/M_Com_Datalogic_Decode_Configuration_IntentDeliveryMode_ValueOf.htm" />
     <HelpKINode Title="KeyboardType.ValueOf Method " Url="html/M_Com_Datalogic_Device_Info_KeyboardType_ValueOf.htm" />
     <HelpKINode Title="KeyWedgeMode.ValueOf Method " Url="html/M_Com_Datalogic_Decode_Configuration_KeyWedgeMode_ValueOf.htm" />
@@ -2523,10 +2695,14 @@
     <HelpKINode Title="WiFiType.ValueOf Method " Url="html/M_Com_Datalogic_Device_Info_WiFiType_ValueOf.htm" />
   </HelpKINode>
   <HelpKINode Title="Values method">
+    <HelpKINode Title="ActionType.Values Method " Url="html/M_Com_Datalogic_Softspot_ActionType_Values.htm" />
     <HelpKINode Title="BarcodeID.Values Method " Url="html/M_Com_Datalogic_Decode_BarcodeID_Values.htm" />
     <HelpKINode Title="BarcodeScannerType.Values Method " Url="html/M_Com_Datalogic_Device_Info_BarcodeScannerType_Values.htm" />
     <HelpKINode Title="BeamMode.Values Method " Url="html/M_Com_Datalogic_Decode_Configuration_BeamMode_Values.htm" />
     <HelpKINode Title="BootType.Values Method " Url="html/M_Com_Datalogic_Device_BootType_Values.htm" />
+    <HelpKINode Title="DecodedDuration.Values Method " Url="html/M_Com_Datalogic_Softspot_DecodedDuration_Values.htm" />
+    <HelpKINode Title="ImageEnum.Values Method " Url="html/M_Com_Datalogic_Softspot_ImageEnum_Values.htm" />
+    <HelpKINode Title="ImageState.Values Method " Url="html/M_Com_Datalogic_Softspot_ImageState_Values.htm" />
     <HelpKINode Title="IntentDeliveryMode.Values Method " Url="html/M_Com_Datalogic_Decode_Configuration_IntentDeliveryMode_Values.htm" />
     <HelpKINode Title="KeyboardType.Values Method " Url="html/M_Com_Datalogic_Device_Info_KeyboardType_Values.htm" />
     <HelpKINode Title="KeyWedgeMode.Values Method " Url="html/M_Com_Datalogic_Decode_Configuration_KeyWedgeMode_Values.htm" />
@@ -2564,6 +2740,7 @@
   <HelpKINode Title="VscanApostrophe field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanApostrophe.htm" />
   <HelpKINode Title="VscanArchive field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanArchive.htm" />
   <HelpKINode Title="VscanAudio field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAudio.htm" />
+  <HelpKINode Title="VscanAutoscanTrigger field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAutoscanTrigger.htm" />
   <HelpKINode Title="VscanAux field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanAux.htm" />
   <HelpKINode Title="VscanB field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanB.htm" />
   <HelpKINode Title="VscanBack field" Url="html/F_Com_Datalogic_Device_Input_KeyboardManager_VScanCode_VscanBack.htm" />
@@ -3019,6 +3196,7 @@
   <HelpKINode Title="WakeupSource.PowerKey property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_PowerKey.htm" />
   <HelpKINode Title="WakeupSource.RtcAlarm property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_RtcAlarm.htm" />
   <HelpKINode Title="WakeupSource.Touch property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_Touch.htm" />
+  <HelpKINode Title="WakeupSource.TrigAutoscan property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigAutoscan.htm" />
   <HelpKINode Title="WakeupSource.TrigFront property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigFront.htm" />
   <HelpKINode Title="WakeupSource.TrigLeft property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigLeft.htm" />
   <HelpKINode Title="WakeupSource.TrigPistol property" Url="html/P_Com_Datalogic_Device_Power_WakeupSource_TrigPistol.htm" />
