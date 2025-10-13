@@ -1,0 +1,387 @@
+<Type Name="CompositionMapping+Builder" FullName="Com.Datalogic.Device.Input.CompositionMapping+Builder">
+  <TypeSignature Language="C#" Value="public class CompositionMapping.Builder : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit CompositionMapping/Builder extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/input/CompositionMapping$Builder", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Builder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "()V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected Builder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDelay">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder AddDelay (long delay);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder AddDelay(int64 delay) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addDelay", "(J)Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetAddDelay_JHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="delay" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="delay">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEvent">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder AddEvent (Com.Datalogic.Device.Input.MappingObject action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder AddEvent(class Com.Datalogic.Device.Input.MappingObject action) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addEvent", "(Lcom/datalogic/device/input/MappingObject;)Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetAddEvent_Lcom_datalogic_device_input_MappingObject_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="Com.Datalogic.Device.Input.MappingObject" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddKey">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder AddKey (Com.Datalogic.Device.Input.KeyCodeEntry key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder AddKey(class Com.Datalogic.Device.Input.KeyCodeEntry key) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addKey", "(Lcom/datalogic/device/input/KeyCodeEntry;)Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetAddKey_Lcom_datalogic_device_input_KeyCodeEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Com.Datalogic.Device.Input.KeyCodeEntry" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddKeyAction">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder AddKeyAction (Com.Datalogic.Device.Input.KeyCodeEntry key, int action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder AddKeyAction(class Com.Datalogic.Device.Input.KeyCodeEntry key, int32 action) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addKeyAction", "(Lcom/datalogic/device/input/KeyCodeEntry;I)Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetAddKeyAction_Lcom_datalogic_device_input_KeyCodeEntry_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Com.Datalogic.Device.Input.KeyCodeEntry" />
+        <Parameter Name="action" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="action">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Build">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping Build ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping Build() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("build", "()Lcom/datalogic/device/input/CompositionMapping;", "GetBuildHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlt">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder DisableAlt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder DisableAlt() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("disableAlt", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetDisableAltHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableCtrl">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder DisableCtrl ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder DisableCtrl() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("disableCtrl", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetDisableCtrlHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableShift">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder DisableShift ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder DisableShift() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("disableShift", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetDisableShiftHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlt">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder EnableAlt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder EnableAlt() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("enableAlt", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetEnableAltHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableCtrl">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder EnableCtrl ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder EnableCtrl() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("enableCtrl", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetEnableCtrlHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableShift">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.CompositionMapping.Builder EnableShift ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.CompositionMapping/Builder EnableShift() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("enableShift", "()Lcom/datalogic/device/input/CompositionMapping$Builder;", "GetEnableShiftHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.CompositionMapping+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

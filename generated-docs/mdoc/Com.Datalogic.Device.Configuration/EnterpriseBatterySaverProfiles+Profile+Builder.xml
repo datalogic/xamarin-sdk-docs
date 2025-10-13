@@ -1,0 +1,553 @@
+<Type Name="EnterpriseBatterySaverProfiles+Profile+Builder" FullName="Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder">
+  <TypeSignature Language="C#" Value="public class EnterpriseBatterySaverProfiles.Profile.Builder : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit EnterpriseBatterySaverProfiles/Profile/Builder extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Builder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "()V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected Builder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddApplicationsBlacklist">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder AddApplicationsBlacklist (string application);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder AddApplicationsBlacklist(string application) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addApplicationsBlacklist", "(Ljava/lang/String;)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetAddApplicationsBlacklist_Ljava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="application" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="application">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Build">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile Build ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile Build() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("build", "()Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile;", "GetBuildHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithAdaptiveBrightness">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithAdaptiveBrightness (bool adaptiveBrightness);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithAdaptiveBrightness(bool adaptiveBrightness) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withAdaptiveBrightness", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithAdaptiveBrightness_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="adaptiveBrightness" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="adaptiveBrightness">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithCpuFrequencyLimit">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithCpuFrequencyLimit (int cpuFrequencyLimit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithCpuFrequencyLimit(int32 cpuFrequencyLimit) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withCpuFrequencyLimit", "(I)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithCpuFrequencyLimit_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cpuFrequencyLimit" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="cpuFrequencyLimit">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisable5G">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisable5G (bool disable5G);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisable5G(bool disable5G) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisable5G", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisable5G_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disable5G" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disable5G">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisableBluetooth">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisableBluetooth (bool disableBluetooth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisableBluetooth(bool disableBluetooth) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisableBluetooth", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisableBluetooth_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableBluetooth" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableBluetooth">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisableLocation">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisableLocation (bool disableLocation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisableLocation(bool disableLocation) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisableLocation", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisableLocation_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableLocation" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableLocation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisableNfc">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisableNfc (bool disableNfc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisableNfc(bool disableNfc) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisableNfc", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisableNfc_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableNfc" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableNfc">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisableTelephony">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisableTelephony (bool disableTelephony);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisableTelephony(bool disableTelephony) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisableTelephony", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisableTelephony_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableTelephony" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableTelephony">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDisableWifi">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDisableWifi (bool disableWifi);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDisableWifi(bool disableWifi) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDisableWifi", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDisableWifi_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableWifi" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableWifi">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithDownloadRateLimitKbps">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithDownloadRateLimitKbps (int downloadRateLimitKbps);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithDownloadRateLimitKbps(int32 downloadRateLimitKbps) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withDownloadRateLimitKbps", "(I)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithDownloadRateLimitKbps_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="downloadRateLimitKbps" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="downloadRateLimitKbps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithGpuFrequencyLimit">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithGpuFrequencyLimit (int gpuFrequencyLimit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithGpuFrequencyLimit(int32 gpuFrequencyLimit) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withGpuFrequencyLimit", "(I)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithGpuFrequencyLimit_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gpuFrequencyLimit" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="gpuFrequencyLimit">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithHalvesBrightnessAdjustment">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithHalvesBrightnessAdjustment (bool halvesBrightnessAdjustment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithHalvesBrightnessAdjustment(bool halvesBrightnessAdjustment) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withHalvesBrightnessAdjustment", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithHalvesBrightnessAdjustment_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="halvesBrightnessAdjustment" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="halvesBrightnessAdjustment">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithInstallLocation">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithInstallLocation (Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location installLocation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithInstallLocation(class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location installLocation) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withInstallLocation", "(Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Location;)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithInstallLocation_Lcom_datalogic_device_configuration_EnterpriseBatterySaverProfiles_Profile_Location_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="installLocation" Type="Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location" />
+      </Parameters>
+      <Docs>
+        <param name="installLocation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithMobileDataAlwaysActive">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithMobileDataAlwaysActive (bool mobileDataAlwaysActive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithMobileDataAlwaysActive(bool mobileDataAlwaysActive) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withMobileDataAlwaysActive", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithMobileDataAlwaysActive_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mobileDataAlwaysActive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mobileDataAlwaysActive">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithName">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithName (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithName(string name) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withName", "(Ljava/lang/String;)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithName_Ljava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithUsePowerSaveGovernor">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Builder WithUsePowerSaveGovernor (bool usePowerSaveGovernor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Builder WithUsePowerSaveGovernor(bool usePowerSaveGovernor) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("withUsePowerSaveGovernor", "(Z)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Builder;", "GetWithUsePowerSaveGovernor_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Builder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="usePowerSaveGovernor" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="usePowerSaveGovernor">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

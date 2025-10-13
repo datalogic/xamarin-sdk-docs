@@ -1,0 +1,231 @@
+<Type Name="CradleLed" FullName="Com.Datalogic.Cradle.CradleLed">
+  <TypeSignature Language="C#" Value="public sealed class CradleLed : Java.Lang.Enum" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CradleLed extends Java.Lang.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Enum</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/cradle/CradleLed", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FromInt">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.CradleLed FromInt (int id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Com.Datalogic.Cradle.CradleLed FromInt(int32 id) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("fromInt", "(I)Lcom/datalogic/cradle/CradleLed;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.CradleLed</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Main">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.CradleLed Main { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Cradle.CradleLed Main" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("MAIN")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.CradleLed</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToInt">
+      <MemberSignature Language="C#" Value="public int ToInt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ToInt() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("toInt", "()I", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.CradleLed Unknown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Cradle.CradleLed Unknown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("UNKNOWN")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.CradleLed</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueOf">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.CradleLed ValueOf (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Com.Datalogic.Cradle.CradleLed ValueOf(string name) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("valueOf", "(Ljava/lang/String;)Lcom/datalogic/cradle/CradleLed;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.CradleLed</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.CradleLed[] Values ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Com.Datalogic.Cradle.CradleLed[] Values() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("values", "()[Lcom/datalogic/cradle/CradleLed;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.CradleLed[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

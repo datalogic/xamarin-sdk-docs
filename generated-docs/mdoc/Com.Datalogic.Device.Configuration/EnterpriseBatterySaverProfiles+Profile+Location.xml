@@ -1,0 +1,226 @@
+<Type Name="EnterpriseBatterySaverProfiles+Profile+Location" FullName="Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location">
+  <TypeSignature Language="C#" Value="public sealed class EnterpriseBatterySaverProfiles.Profile.Location : Java.Lang.Enum" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit EnterpriseBatterySaverProfiles/Profile/Location extends Java.Lang.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Enum</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Location", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enterprise">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location Enterprise { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location Enterprise" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ENTERPRISE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterpriseFactory">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location EnterpriseFactory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location EnterpriseFactory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ENTERPRISE_FACTORY")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location System { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location System" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("SYSTEM")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Userdata">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location Userdata { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location Userdata" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("USERDATA")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueOf">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location ValueOf (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location ValueOf(string name) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("valueOf", "(Ljava/lang/String;)Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Location;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles.Profile.Location[] Values ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles/Profile/Location[] Values() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("values", "()[Lcom/datalogic/device/configuration/EnterpriseBatterySaverProfiles$Profile$Location;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.EnterpriseBatterySaverProfiles+Profile+Location[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

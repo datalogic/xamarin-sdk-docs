@@ -1,0 +1,381 @@
+<Type Name="UsbWhitelistedDevice" FullName="Com.Datalogic.Device.Configuration.UsbWhitelistedDevice">
+  <TypeSignature Language="C#" Value="public class UsbWhitelistedDevice : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UsbWhitelistedDevice extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/configuration/UsbWhitelistedDevice", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected UsbWhitelistedDevice (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsbWhitelistedDevice (int vid, int pid, string name, string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 vid, int32 pid, string name, string description) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(IILjava/lang/String;Ljava/lang/String;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="vid" Type="System.Int32" />
+        <Parameter Name="pid" Type="System.Int32" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="vid">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsbWhitelistedDevice (string vid, string pid, string name, string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string vid, string pid, string name, string description) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="vid" Type="System.String" />
+        <Parameter Name="pid" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="vid">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsbWhitelistedDevice (int vid, int pid, string name, string description, Com.Datalogic.Device.Configuration.WhitelistingPersistence persistence);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 vid, int32 pid, string name, string description, class Com.Datalogic.Device.Configuration.WhitelistingPersistence persistence) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(IILjava/lang/String;Ljava/lang/String;Lcom/datalogic/device/configuration/WhitelistingPersistence;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="vid" Type="System.Int32" />
+        <Parameter Name="pid" Type="System.Int32" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="persistence" Type="Com.Datalogic.Device.Configuration.WhitelistingPersistence" />
+      </Parameters>
+      <Docs>
+        <param name="vid">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="persistence">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsbWhitelistedDevice (string vid, string pid, string name, string description, Com.Datalogic.Device.Configuration.WhitelistingPersistence persistence);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string vid, string pid, string name, string description, class Com.Datalogic.Device.Configuration.WhitelistingPersistence persistence) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/datalogic/device/configuration/WhitelistingPersistence;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="vid" Type="System.String" />
+        <Parameter Name="pid" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="persistence" Type="Com.Datalogic.Device.Configuration.WhitelistingPersistence" />
+      </Parameters>
+      <Docs>
+        <param name="vid">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="persistence">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public virtual string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getDescription", "()Ljava/lang/String;", "GetGetDescriptionHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setDescription", "(Ljava/lang/String;)V", "GetSetDescription_Ljava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getName", "()Ljava/lang/String;", "GetGetNameHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setName", "(Ljava/lang/String;)V", "GetSetName_Ljava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Persistence">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Configuration.WhitelistingPersistence Persistence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Device.Configuration.WhitelistingPersistence Persistence" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getPersistence", "()Lcom/datalogic/device/configuration/WhitelistingPersistence;", "GetGetPersistenceHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setPersistence", "(Lcom/datalogic/device/configuration/WhitelistingPersistence;)V", "GetSetPersistence_Lcom_datalogic_device_configuration_WhitelistingPersistence_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Configuration.WhitelistingPersistence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pid">
+      <MemberSignature Language="C#" Value="public virtual int Pid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Pid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getPid", "()I", "GetGetPidHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PidHex">
+      <MemberSignature Language="C#" Value="public virtual string PidHex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PidHex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getPidHex", "()Ljava/lang/String;", "GetGetPidHexHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vid">
+      <MemberSignature Language="C#" Value="public virtual int Vid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Vid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getVid", "()I", "GetGetVidHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VidHex">
+      <MemberSignature Language="C#" Value="public virtual string VidHex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VidHex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getVidHex", "()Ljava/lang/String;", "GetGetVidHexHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

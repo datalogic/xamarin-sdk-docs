@@ -1,0 +1,160 @@
+﻿<html>
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<link href="../icons/favicon.ico" rel="shortcut icon"/>
+<link href="../styles/branding.css" rel="stylesheet" type="text/css"/>
+<link href="../styles/branding-en-US.css" rel="stylesheet" type="text/css"/>
+<script src="../scripts/branding.js" type="text/javascript"></script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>GS1Parser.ParseDigitalLink Method</title>
+<meta content="en-us" name="Language"/>
+<meta content="ParseDigitalLink method" name="System.Keywords"/>
+<meta content="GS1Parser.ParseDigitalLink method" name="System.Keywords"/>
+<meta content="Com.Datalogic.Decode.Utils.GS1Parser.ParseDigitalLink" name="Microsoft.Help.F1"/>
+<meta content="M:Com.Datalogic.Decode.Utils.GS1Parser.ParseDigitalLink" name="Microsoft.Help.Id"/>
+<meta content="Reference" name="Microsoft.Help.ContentType"/>
+<meta content="true" name="BrandingAware"/>
+<meta content="Com.Datalogic.Decode.Utils" name="container"/>
+<meta content="M_Com_Datalogic_Decode_Utils_GS1Parser_ParseDigitalLink" name="file"/>
+<meta content="M_Com_Datalogic_Decode_Utils_GS1Parser_ParseDigitalLink" name="guid"/>
+<link href="../styles/branding-Website.css" rel="stylesheet" type="text/css"/>
+<script src="../scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="../scripts/branding-Website.js" type="text/javascript"></script>
+<script src="../scripts/clipboard.min.js" type="text/javascript"></script>
+</head>
+<body onload="OnLoad('cs')">
+<input class="userDataStyle" id="userDataCache" type="hidden"/>
+<div class="pageHeader" id="PageHeader">
+      Datalogic Xamarin SDK
+      <form action="#" id="SearchForm" method="get" onsubmit="javascript:TransferToSearchPage(); return false;">
+<input id="SearchTextBox" maxlength="200" type="text"/><button id="SearchButton" type="submit"></button>
+</form>
+</div>
+<div class="pageBody">
+<div class="leftNav" id="leftNav">
+<div id="tocNav">
+<div class="toclevel0" data-toclevel="0">
+<a class="tocCollapsed" href="#!" onclick="javascript: Toggle(this);"></a>
+<a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="Datalogic Xamarin SDK" tocid="roottoc">Datalogic Xamarin SDK</a>
+</div>
+<div class="toclevel0" data-toclevel="0">
+<a class="tocCollapsed" href="#!" onclick="javascript: Toggle(this);"></a>
+<a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a>
+</div>
+<div class="toclevel0" data-toclevel="0">
+<a class="tocCollapsed" href="#!" onclick="javascript: Toggle(this);"></a>
+<a data-tochassubtree="true" href="../html/N_Com_Datalogic_Decode_Utils.htm" title="Com.Datalogic.Decode.Utils" tocid="N_Com_Datalogic_Decode_Utils">Com.Datalogic.Decode.Utils</a>
+</div>
+<div class="toclevel0" data-toclevel="0">
+<a class="tocCollapsed" href="#!" onclick="javascript: Toggle(this);"></a>
+<a data-tochassubtree="true" href="../html/T_Com_Datalogic_Decode_Utils_GS1Parser.htm" title="GS1Parser Class" tocid="T_Com_Datalogic_Decode_Utils_GS1Parser">GS1Parser Class</a>
+</div>
+<div class="toclevel1" data-childrenloaded="true" data-toclevel="1">
+<a class="tocExpanded" href="#!" onclick="javascript: Toggle(this);"></a>
+<a data-tochassubtree="true" href="../html/Methods_T_Com_Datalogic_Decode_Utils_GS1Parser.htm" title="GS1Parser Methods" tocid="Methods_T_Com_Datalogic_Decode_Utils_GS1Parser">GS1Parser Methods</a>
+</div>
+<div class="toclevel2" data-toclevel="2">
+<a data-tochassubtree="false" href="../html/M_Com_Datalogic_Decode_Utils_GS1Parser_Parse.htm" title="Parse Method" tocid="M_Com_Datalogic_Decode_Utils_GS1Parser_Parse">Parse Method</a>
+</div>
+<div class="toclevel2 current" data-toclevel="2">
+<a data-tochassubtree="false" href="../html/M_Com_Datalogic_Decode_Utils_GS1Parser_ParseDigitalLink.htm" title="ParseDigitalLink Method" tocid="M_Com_Datalogic_Decode_Utils_GS1Parser_ParseDigitalLink">ParseDigitalLink Method</a>
+</div>
+</div>
+</div>
+<div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div>
+<div class="tocResize" id="TocResize">
+<img alt="Click or drag to resize" id="ResizeImageIncrease" onclick="OnIncreaseToc()" src="../icons/TocOpen.gif" title="Click or drag to resize"/><img alt="Click or drag to resize" id="ResizeImageReset" onclick="OnResetToc()" src="../icons/TocClose.gif" style="display: none" title="Click or drag to resize"/>
+</div>
+</div>
+<div class="topicContent" id="TopicContent">
+<table class="titleTable">
+<tr>
+<td class="titleColumn"><h1>GS1Parser<span id="LSTMETHOD_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTMETHOD_0?cpp=::|nu=.");</script>ParseDigitalLink Method</h1></td>
+</tr>
+</table>
+<span class="introStyle"></span>
+<div class="summary">Executes the parsing of an input string that represents an URI in GS1 Digital Link format.</div>
+<p></p>
+<strong>Namespace:</strong>
+         <a href="N_Com_Datalogic_Decode.htm">Com.Datalogic.Decode</a><br/>
+<strong>Assembly:</strong>
+         datalogic-xamarin-sdk (in datalogic-xamarin-sdk.dll) Version: 1.0.0.0
+        (1.0.0.0)
+        <div class="collapsibleAreaRegion">
+<span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img class="collapseToggle" id="ID1RBToggle" src="../icons/SectionExpanded.png"/>Syntax</span>
+</div>
+<div class="collapsibleSection" id="ID1RBSection">
+<div class="codeSnippetContainer">
+<div class="codeSnippetContainerTabs">
+<div class="codeSnippetContainerTab" id="ID0EBCA_tab1">
+<a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a>
+</div>
+<div class="codeSnippetContainerTab" id="ID0EBCA_tab2">
+<a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a>
+</div>
+</div>
+<div class="codeSnippetContainerCodeContainer">
+<div class="codeSnippetToolBar">
+<div class="codeSnippetToolBarText">
+<a class="copyCodeSnippet" href="#" id="ID0EBCA_copyCode" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a>
+</div>
+</div>
+<div class="codeSnippetContainerCode" id="ID0EBCA_code_Div1" style="display: block">
+<pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> System.Collections.Generic.IDictionary&lt;<span class="keyword">string</span>,Com.Datalogic.Decode.Utils.GS1Parser.GS1Field&gt; ParseDigitalLink (<span class="keyword">string</span> barcodeUri);</pre>
+</div>
+<div class="codeSnippetContainerCode" id="ID0EBCA_code_Div2" style="display: none">
+<pre xml:space="preserve">Public static System.Collections.Generic.IDictionary<string,com.datalogic.decode.utils.gs1parser.gs1field> ParseDigitalLink (String barcodeUri);</string,com.datalogic.decode.utils.gs1parser.gs1field></pre>
+</div>
+</div>
+</div>
+<script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script>
+<h4 class="subHeading">Parameters</h4><dl class="parameterList"><dt><span class="parameter">barcodeUri</span></dt>
+<dd>Type: <a href="#">System.String</a><br/>The GS1 Digital Link URI string.</dd></dl>
+<h4 class="subHeading">Return Value</h4>
+<p>Type: <a href="#">System.Collections.Generic.IDictionary<system.string,com.datalogic.decode.utils.gs1parser+gs1field></system.string,com.datalogic.decode.utils.gs1parser+gs1field></a><br/>A Map containing as keys the generic application identifiers and as entries
+         the GS1Field objects containing the parsed values.</p>
+</div>
+<div class="collapsibleAreaRegion">
+<span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+<img class="collapseToggle" id="ID2RBToggle" src="../icons/SectionExpanded.png"/>Exceptions
+          </span>
+</div>
+<div class="collapsibleSection" id="ID2RBSection">
+<div class="tableContainer">
+<table class="dtTABLE">
+<tr valign="top">
+<th>Exception</th>
+<th>Condition</th>
+</tr><tr valign="top">
+<td><a href="#">GS1Parser.ParsingException</a></td>
+<td>In case of parsing errors.</td>
+</tr></table>
+</div>
+</div>
+<div class="collapsibleAreaRegion">
+<span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
+<img class="collapseToggle" id="ID3RBToggle" src="../icons/SectionExpanded.png"/>Remarks
+          </span>
+</div>
+<div class="collapsibleSection" id="ID3RBSection">
+          Executes the parsing of an input string that represents an URI in GS1 Digital Link format.<p><a href="http://datalogic.github.io/android-sdk-docs/reference/com/datalogic/decode/Utils/GS1Parser.html#parsedigitallink" target="_blank">[Android Documentation]</a></p>
+</div>
+<div class="collapsibleAreaRegion" id="seeAlsoSection">
+<span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img class="collapseToggle" id="ID4RBToggle" src="../icons/SectionExpanded.png"/>See Also</span>
+</div>
+<div class="collapsibleSection" id="ID4RBSection">
+<h4 class="subHeading">Reference</h4>
+<div class="seeAlsoStyle"><a href="T_Com_Datalogic_Decode_Utils_GS1Parser.htm">GS1Parser Class</a></div>
+<div class="seeAlsoStyle"><a href="N_Com_Datalogic_Decode_Utils.htm">Com.Datalogic.Decode.Utils Namespace</a></div>
+</div>
+</div>
+<div class="pageFooter" id="pageFooter">
+<p>
+        © 2016 Datalogic S.p.A. and/or its affiliates. All rights reserved.
+        Datalogic and the Datalogic logo are registered trademarks of Datalogic
+        S.p.A. in many countries including the U.S.A. and the E.U. All other
+        trademarks are the property of their respective owners.
+      </p>
+</div>
+</body>
+</html>

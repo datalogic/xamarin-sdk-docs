@@ -1,0 +1,364 @@
+<Type Name="CameraInputDevice" FullName="Com.Datalogic.Decode.CameraInputDevice">
+  <TypeSignature Language="C#" Value="public class CameraInputDevice : Java.Lang.Object, Com.Datalogic.Decode.IInputDevice, IDisposable, Java.Interop.IJavaPeerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CameraInputDevice extends Java.Lang.Object implements class Android.Runtime.IJavaObject, class Com.Datalogic.Decode.IInputDevice, class Java.Interop.IJavaPeerable, class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Android.Runtime.IJavaObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Com.Datalogic.Decode.IInputDevice</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Java.Interop.IJavaPeerable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/decode/CameraInputDevice", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CameraInputDevice (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CameraInputDevice (string name, string cameraId, Com.Datalogic.Decode.CameraInputDevice.PreviewSize currentPreviewSize, System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CameraInputDevice.PreviewSize&gt; supportedPreviewSizes, int facing, int orientation, Com.Datalogic.Decode.CameraInputDevice.PreviewDisplayMode previewDisplayMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string cameraId, class Com.Datalogic.Decode.CameraInputDevice/PreviewSize currentPreviewSize, class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.CameraInputDevice/PreviewSize&gt; supportedPreviewSizes, int32 facing, int32 orientation, class Com.Datalogic.Decode.CameraInputDevice/PreviewDisplayMode previewDisplayMode) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(Ljava/lang/String;Ljava/lang/String;Lcom/datalogic/decode/CameraInputDevice$PreviewSize;Ljava/util/List;IILcom/datalogic/decode/CameraInputDevice$PreviewDisplayMode;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cameraId" Type="System.String" />
+        <Parameter Name="currentPreviewSize" Type="Com.Datalogic.Decode.CameraInputDevice+PreviewSize" />
+        <Parameter Name="supportedPreviewSizes" Type="System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CameraInputDevice+PreviewSize&gt;" />
+        <Parameter Name="facing" Type="System.Int32" />
+        <Parameter Name="orientation" Type="System.Int32" />
+        <Parameter Name="previewDisplayMode" Type="Com.Datalogic.Decode.CameraInputDevice+PreviewDisplayMode" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="cameraId">To be added.</param>
+        <param name="currentPreviewSize">To be added.</param>
+        <param name="supportedPreviewSizes">To be added.</param>
+        <param name="facing">To be added.</param>
+        <param name="orientation">To be added.</param>
+        <param name="previewDisplayMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CameraId">
+      <MemberSignature Language="C#" Value="public virtual string CameraId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CameraId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getCameraId", "()Ljava/lang/String;", "GetGetCameraIdHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPreviewSize">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.CameraInputDevice.PreviewSize CurrentPreviewSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.CameraInputDevice/PreviewSize CurrentPreviewSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getCurrentPreviewSize", "()Lcom/datalogic/decode/CameraInputDevice$PreviewSize;", "GetGetCurrentPreviewSizeHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setCurrentPreviewSize", "(Lcom/datalogic/decode/CameraInputDevice$PreviewSize;)V", "GetSetCurrentPreviewSize_Lcom_datalogic_decode_CameraInputDevice_PreviewSize_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.CameraInputDevice+PreviewSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Facing">
+      <MemberSignature Language="C#" Value="public virtual int Facing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Facing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getFacing", "()I", "GetGetFacingHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPreviewDisplayMode">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.CameraInputDevice.PreviewDisplayMode GetPreviewDisplayMode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Decode.CameraInputDevice/PreviewDisplayMode GetPreviewDisplayMode() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getPreviewDisplayMode", "()Lcom/datalogic/decode/CameraInputDevice$PreviewDisplayMode;", "GetGetPreviewDisplayModeHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.CameraInputDevice+PreviewDisplayMode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Java.Interop.IJavaPeerable.JniPeerMembers</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Com.Datalogic.Decode.IInputDevice.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getName", "()Ljava/lang/String;", "GetGetNameHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public virtual int Orientation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Orientation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getOrientation", "()I", "GetGetOrientationHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPreviewDisplayMode">
+      <MemberSignature Language="C#" Value="public virtual void SetPreviewDisplayMode (Com.Datalogic.Decode.CameraInputDevice.PreviewDisplayMode previewDisplayMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetPreviewDisplayMode(class Com.Datalogic.Decode.CameraInputDevice/PreviewDisplayMode previewDisplayMode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setPreviewDisplayMode", "(Lcom/datalogic/decode/CameraInputDevice$PreviewDisplayMode;)V", "GetSetPreviewDisplayMode_Lcom_datalogic_decode_CameraInputDevice_PreviewDisplayMode_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="previewDisplayMode" Type="Com.Datalogic.Decode.CameraInputDevice+PreviewDisplayMode" />
+      </Parameters>
+      <Docs>
+        <param name="previewDisplayMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedPreviewSizes">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CameraInputDevice.PreviewSize&gt; SupportedPreviewSizes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.CameraInputDevice/PreviewSize&gt; SupportedPreviewSizes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getSupportedPreviewSizes", "()Ljava/util/List;", "GetGetSupportedPreviewSizesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CameraInputDevice+PreviewSize&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.InputDeviceType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.InputDeviceType Type" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Com.Datalogic.Decode.IInputDevice.Type</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getType", "()Lcom/datalogic/decode/InputDevice$Type;", "GetGetTypeHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.InputDeviceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

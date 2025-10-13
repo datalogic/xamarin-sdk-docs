@@ -1,0 +1,115 @@
+<Type Name="IDecodeResult" FullName="Com.Datalogic.Decode.IDecodeResult">
+  <TypeSignature Language="C#" Value="public interface IDecodeResult : Android.Runtime.IJavaObject, IDisposable, Java.Interop.IJavaPeerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IDecodeResult implements class Android.Runtime.IJavaObject, class Java.Interop.IJavaPeerable, class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Android.Runtime.IJavaObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Java.Interop.IJavaPeerable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/decode/DecodeResult", "", "Com.Datalogic.Decode.IDecodeResultInvoker")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BarcodeID">
+      <MemberSignature Language="C#" Value="public Com.Datalogic.Decode.BarcodeID BarcodeID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.BarcodeID BarcodeID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getBarcodeID", "()Lcom/datalogic/decode/BarcodeID;", "GetGetBarcodeIDHandler:Com.Datalogic.Decode.IDecodeResultInvoker, datalogic-xamarin-sdk")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.BarcodeID</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Crop">
+      <MemberSignature Language="C#" Value="public Android.Graphics.Bitmap Crop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Android.Graphics.Bitmap Crop" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getCrop", "()Landroid/graphics/Bitmap;", "GetGetCropHandler:Com.Datalogic.Decode.IDecodeResultInvoker, datalogic-xamarin-sdk")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Android.Graphics.Bitmap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRawData">
+      <MemberSignature Language="C#" Value="public byte[] GetRawData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] GetRawData() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getRawData", "()[B", "GetGetRawDataHandler:Com.Datalogic.Decode.IDecodeResultInvoker, datalogic-xamarin-sdk")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getText", "()Ljava/lang/String;", "GetGetTextHandler:Com.Datalogic.Decode.IDecodeResultInvoker, datalogic-xamarin-sdk")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

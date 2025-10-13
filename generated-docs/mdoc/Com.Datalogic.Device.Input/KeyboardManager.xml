@@ -1,0 +1,954 @@
+<Type Name="KeyboardManager" FullName="Com.Datalogic.Device.Input.KeyboardManager">
+  <TypeSignature Language="C#" Value="public class KeyboardManager : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyboardManager extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/input/KeyboardManager", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeyboardManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "()V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected KeyboardManager (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdvancedKeyboard">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.AdvancedKeyboard AdvancedKeyboard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Device.Input.AdvancedKeyboard AdvancedKeyboard" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getAdvancedKeyboard", "()Lcom/datalogic/device/input/AdvancedKeyboard;", "GetGetAdvancedKeyboardHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.AdvancedKeyboard</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllMappedScanEntries">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Device.Input.VScanEntry&gt; AllMappedScanEntries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Device.Input.VScanEntry&gt; AllMappedScanEntries" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getAllMappedScanEntries", "()Ljava/util/List;", "GetGetAllMappedScanEntriesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Device.Input.VScanEntry&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArgLongPressTimeout">
+      <MemberSignature Language="C#" Value="public const string ArgLongPressTimeout;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArgLongPressTimeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ARG_LONG_PRESS_TIMEOUT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArgMultiplePressCount">
+      <MemberSignature Language="C#" Value="public const string ArgMultiplePressCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArgMultiplePressCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ARG_MULTIPLE_PRESS_COUNT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArgMultiplePressMaxBreak">
+      <MemberSignature Language="C#" Value="public const string ArgMultiplePressMaxBreak;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArgMultiplePressMaxBreak" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ARG_MULTIPLE_PRESS_MAX_BREAK")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArgMultiplePressMaxInterval">
+      <MemberSignature Language="C#" Value="public const string ArgMultiplePressMaxInterval;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArgMultiplePressMaxInterval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ARG_MULTIPLE_PRESS_MAX_INTERVAL")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArgVeryLongPressTimeout">
+      <MemberSignature Language="C#" Value="public const string ArgVeryLongPressTimeout;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArgVeryLongPressTimeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ARG_VERY_LONG_PRESS_TIMEOUT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableTriggers">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Device.Input.ITrigger&gt; AvailableTriggers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Device.Input.ITrigger&gt; AvailableTriggers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getAvailableTriggers", "()Ljava/util/List;", "GetGetAvailableTriggersHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Device.Input.ITrigger&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAllMappings">
+      <MemberSignature Language="C#" Value="public virtual int ClearAllMappings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 ClearAllMappings() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("clearAllMappings", "()I", "GetClearAllMappingsHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearMapping">
+      <MemberSignature Language="C#" Value="public virtual int ClearMapping (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 ClearMapping(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("clearMapping", "(Lcom/datalogic/device/input/VScanEntry;)I", "GetClearMapping_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableKey">
+      <MemberSignature Language="C#" Value="public virtual int DisableKey (Com.Datalogic.Device.Input.VScanEntry scanCode, bool disable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DisableKey(class Com.Datalogic.Device.Input.VScanEntry scanCode, bool disable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("disableKey", "(Lcom/datalogic/device/input/VScanEntry;Z)I", "GetDisableKey_Lcom_datalogic_device_input_VScanEntry_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="disable" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="disable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIntent">
+      <MemberSignature Language="C#" Value="public virtual Android.Content.Intent GetIntent (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Android.Content.Intent GetIntent(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getIntent", "(Lcom/datalogic/device/input/VScanEntry;)Landroid/content/Intent;", "GetGetIntent_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Android.Content.Intent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyboardLayout">
+      <MemberSignature Language="C#" Value="public static int[][] GetKeyboardLayout ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32[][] GetKeyboardLayout() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getKeyboardLayout", "()[[I", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32[][]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyCode">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Device.Input.KeyCodeEntry GetKeyCode (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Device.Input.KeyCodeEntry GetKeyCode(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getKeyCode", "(Lcom/datalogic/device/input/VScanEntry;)Lcom/datalogic/device/input/KeyCodeEntry;", "GetGetKeyCode_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Device.Input.KeyCodeEntry</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMappingArguments">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IDictionary&lt;string,string&gt; GetMappingArguments (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; GetMappingArguments(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getMappingArguments", "(Lcom/datalogic/device/input/VScanEntry;)Ljava/util/Map;", "GetGetMappingArguments_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMappingObjects">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt; GetMappingObjects (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.MappingTriggerPolicy, class Com.Datalogic.Device.Input.MappingObject&gt; GetMappingObjects(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getMappingObjects", "(Lcom/datalogic/device/input/VScanEntry;)Ljava/util/Map;", "GetGetMappingObjects_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUnicode">
+      <MemberSignature Language="C#" Value="public virtual Java.Lang.Character GetUnicode (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Java.Lang.Character GetUnicode(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getUnicode", "(Lcom/datalogic/device/input/VScanEntry;)Ljava/lang/Character;", "GetGetUnicode_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Lang.Character</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInputLocked">
+      <MemberSignature Language="C#" Value="public virtual bool IsInputLocked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInputLocked" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("isInputLocked", "()Z", "GetIsInputLockedHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsKeyDisabled">
+      <MemberSignature Language="C#" Value="public virtual bool IsKeyDisabled (Com.Datalogic.Device.Input.VScanEntry scanCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsKeyDisabled(class Com.Datalogic.Device.Input.VScanEntry scanCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isKeyDisabled", "(Lcom/datalogic/device/input/VScanEntry;)Z", "GetIsKeyDisabled_Lcom_datalogic_device_input_VScanEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyCodeBatterySwap">
+      <MemberSignature Language="C#" Value="public virtual int KeyCodeBatterySwap { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 KeyCodeBatterySwap" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getKeyCodeBatterySwap", "()I", "GetGetKeyCodeBatterySwapHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockInput">
+      <MemberSignature Language="C#" Value="public virtual int LockInput (bool lock);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 LockInput(bool lock) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("lockInput", "(Z)I", "GetLockInput_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lock" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="lock">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapIntent">
+      <MemberSignature Language="C#" Value="public virtual int MapIntent (Com.Datalogic.Device.Input.VScanEntry scanCode, Android.Content.Intent intent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MapIntent(class Com.Datalogic.Device.Input.VScanEntry scanCode, class Android.Content.Intent intent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("mapIntent", "(Lcom/datalogic/device/input/VScanEntry;Landroid/content/Intent;)I", "GetMapIntent_Lcom_datalogic_device_input_VScanEntry_Landroid_content_Intent_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="intent" Type="Android.Content.Intent" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="intent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapKey">
+      <MemberSignature Language="C#" Value="public virtual int MapKey (Com.Datalogic.Device.Input.VScanEntry scanCode, System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt; mappingInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MapKey(class Com.Datalogic.Device.Input.VScanEntry scanCode, class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.MappingTriggerPolicy, class Com.Datalogic.Device.Input.MappingObject&gt; mappingInfo) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("mapKey", "(Lcom/datalogic/device/input/VScanEntry;Ljava/util/Map;)I", "GetMapKey_Lcom_datalogic_device_input_VScanEntry_Ljava_util_Map_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="mappingInfo" Type="System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="mappingInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapKey">
+      <MemberSignature Language="C#" Value="public virtual int MapKey (Com.Datalogic.Device.Input.VScanEntry scanCode, System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt; mappingInfo, System.Collections.Generic.IDictionary&lt;string,string&gt; arguments);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MapKey(class Com.Datalogic.Device.Input.VScanEntry scanCode, class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.MappingTriggerPolicy, class Com.Datalogic.Device.Input.MappingObject&gt; mappingInfo, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; arguments) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("mapKey", "(Lcom/datalogic/device/input/VScanEntry;Ljava/util/Map;Ljava/util/Map;)I", "GetMapKey_Lcom_datalogic_device_input_VScanEntry_Ljava_util_Map_Ljava_util_Map_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="mappingInfo" Type="System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.MappingTriggerPolicy,Com.Datalogic.Device.Input.MappingObject&gt;" />
+        <Parameter Name="arguments" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="mappingInfo">To be added.</param>
+        <param name="arguments">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapKeyCode">
+      <MemberSignature Language="C#" Value="public virtual int MapKeyCode (Com.Datalogic.Device.Input.VScanEntry scanCode, Com.Datalogic.Device.Input.KeyCodeEntry keyCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MapKeyCode(class Com.Datalogic.Device.Input.VScanEntry scanCode, class Com.Datalogic.Device.Input.KeyCodeEntry keyCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("mapKeyCode", "(Lcom/datalogic/device/input/VScanEntry;Lcom/datalogic/device/input/KeyCodeEntry;)I", "GetMapKeyCode_Lcom_datalogic_device_input_VScanEntry_Lcom_datalogic_device_input_KeyCodeEntry_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="keyCode" Type="Com.Datalogic.Device.Input.KeyCodeEntry" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="keyCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MappedIntents">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Android.Content.Intent&gt; MappedIntents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.VScanEntry, class Android.Content.Intent&gt; MappedIntents" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getMappedIntents", "()Ljava/util/Map;", "GetGetMappedIntentsHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Android.Content.Intent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MappedKeyCodes">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Com.Datalogic.Device.Input.KeyCodeEntry&gt; MappedKeyCodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.VScanEntry, class Com.Datalogic.Device.Input.KeyCodeEntry&gt; MappedKeyCodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getMappedKeyCodes", "()Ljava/util/Map;", "GetGetMappedKeyCodesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Com.Datalogic.Device.Input.KeyCodeEntry&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MappedUnicodes">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Java.Lang.Character&gt; MappedUnicodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Com.Datalogic.Device.Input.VScanEntry, class Java.Lang.Character&gt; MappedUnicodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getMappedUnicodes", "()Ljava/util/Map;", "GetGetMappedUnicodesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Com.Datalogic.Device.Input.VScanEntry,Java.Lang.Character&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapUnicode">
+      <MemberSignature Language="C#" Value="public virtual int MapUnicode (Com.Datalogic.Device.Input.VScanEntry scanCode, Java.Lang.Character c);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MapUnicode(class Com.Datalogic.Device.Input.VScanEntry scanCode, class Java.Lang.Character c) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("mapUnicode", "(Lcom/datalogic/device/input/VScanEntry;Ljava/lang/Character;)I", "GetMapUnicode_Lcom_datalogic_device_input_VScanEntry_Ljava_lang_Character_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scanCode" Type="Com.Datalogic.Device.Input.VScanEntry" />
+        <Parameter Name="c" Type="Java.Lang.Character" />
+      </Parameters>
+      <Docs>
+        <param name="scanCode">To be added.</param>
+        <param name="c">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdAutoscan">
+      <MemberSignature Language="C#" Value="public const int TriggerIdAutoscan = 4;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdAutoscan = (4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_AUTOSCAN")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdFront">
+      <MemberSignature Language="C#" Value="public const int TriggerIdFront = 3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdFront = (3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_FRONT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdLeft">
+      <MemberSignature Language="C#" Value="public const int TriggerIdLeft = 0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdLeft = (0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_LEFT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdMotion">
+      <MemberSignature Language="C#" Value="public const int TriggerIdMotion = 5;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdMotion = (5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_MOTION")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdPistol">
+      <MemberSignature Language="C#" Value="public const int TriggerIdPistol = 2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdPistol = (2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_PISTOL")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdPtt">
+      <MemberSignature Language="C#" Value="public const int TriggerIdPtt = 6;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdPtt = (6)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_PTT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerIdRight">
+      <MemberSignature Language="C#" Value="public const int TriggerIdRight = 1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 TriggerIdRight = (1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("TRIGGER_ID_RIGHT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

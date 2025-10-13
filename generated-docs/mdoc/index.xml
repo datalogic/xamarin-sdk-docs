@@ -1,0 +1,494 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="datalogic-xamarin-sdk" Version="0.0.0.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.cradle", Managed="Com.Datalogic.Cradle")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.decode", Managed="Com.Datalogic.Decode")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.decode.configuration", Managed="Com.Datalogic.Decode.Configuration")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.decode.utils", Managed="Com.Datalogic.Decode.Utils")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device", Managed="Com.Datalogic.Device")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.app", Managed="Com.Datalogic.Device.App")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.battery", Managed="Com.Datalogic.Device.Battery")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.configuration", Managed="Com.Datalogic.Device.Configuration")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.display", Managed="Com.Datalogic.Device.Display")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.emergency", Managed="Com.Datalogic.Device.Emergency")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.info", Managed="Com.Datalogic.Device.Info")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.input", Managed="Com.Datalogic.Device.Input")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.location", Managed="Com.Datalogic.Device.Location")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.nfc", Managed="Com.Datalogic.Device.Nfc")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.notification", Managed="Com.Datalogic.Device.Notification")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.power", Managed="Com.Datalogic.Device.Power")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.device.wifi", Managed="Com.Datalogic.Device.Wifi")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.itemtracking", Managed="Com.Datalogic.Itemtracking")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Android.Runtime.NamespaceMapping(Java="com.datalogic.softspot", Managed="Com.Datalogic.Softspot")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework("MonoAndroid,Version=v5.0", FrameworkDisplayName="Xamarin.Android v5.0 Support")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Com.Datalogic.Cradle">
+      <Type Name="AvailableSourcePower" Kind="Class" />
+      <Type Name="CradleFailureEventEventArgs" Kind="Class" />
+      <Type Name="CradleInsertionEventEventArgs" Kind="Class" />
+      <Type Name="CradleLed" Kind="Class" />
+      <Type Name="CradleUnlockEventEventArgs" Kind="Class" />
+      <Type Name="CradleUnlockKeyEventEventArgs" Kind="Class" />
+      <Type Name="DLCradleManager" Kind="Class" />
+      <Type Name="DLCradleManager+Properties" Kind="Class" />
+      <Type Name="Failure" Kind="Class" />
+      <Type Name="FailureOccurrence" Kind="Class" />
+      <Type Name="ICradleFailureEventListener" Kind="Interface" />
+      <Type Name="ICradleInsertionEventListener" Kind="Interface" />
+      <Type Name="ICradleUnlockEventListener" Kind="Interface" />
+      <Type Name="ICradleUnlockKeyEventListener" Kind="Interface" />
+      <Type Name="InsertionState" Kind="Class" />
+      <Type Name="LeverStatus" Kind="Class" />
+      <Type Name="Time" Kind="Class" />
+      <Type Name="Type" Kind="Class" />
+      <Type Name="UnlockKeyStatus" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Decode">
+      <Type Name="BarcodeDefaults" Kind="Class" />
+      <Type Name="BarcodeID" Kind="Class" />
+      <Type Name="BarcodeManager" Kind="Class" />
+      <Type Name="CameraInputDevice" Kind="Class" />
+      <Type Name="CameraInputDevice+FitScreenPreviewDisplayMode" Kind="Class" />
+      <Type Name="CameraInputDevice+ManualPositioningPreviewDisplayMode" Kind="Class" />
+      <Type Name="CameraInputDevice+ManualPositioningPreviewDisplayMode+ManualPosition" Kind="Class" />
+      <Type Name="CameraInputDevice+PreviewDisplayMode" Kind="Class" />
+      <Type Name="CameraInputDevice+PreviewSize" Kind="Class" />
+      <Type Name="CameraWedgePreviewManager" Kind="Class" />
+      <Type Name="CapturedFrame" Kind="Class" />
+      <Type Name="CustomOCR" Kind="Class" />
+      <Type Name="DecodeException" Kind="Class" />
+      <Type Name="FrameCaptureEventArgs" Kind="Class" />
+      <Type Name="FrameSaveEventArgs" Kind="Class" />
+      <Type Name="GoodReadOverlayManager" Kind="Class" />
+      <Type Name="GoodReadOverlayManager+PersistenceType" Kind="Class" />
+      <Type Name="IDecodeResult" Kind="Interface" />
+      <Type Name="IDeinitListener" Kind="Interface" />
+      <Type Name="IFrameCaptureListener" Kind="Interface" />
+      <Type Name="IFrameSaveListener" Kind="Interface" />
+      <Type Name="IInitListener" Kind="Interface" />
+      <Type Name="IInputDevice" Kind="Interface" />
+      <Type Name="InputDeviceType" Kind="Class" />
+      <Type Name="IPresentationStateListener" Kind="Interface" />
+      <Type Name="IReadListener" Kind="Interface" />
+      <Type Name="IStartListener" Kind="Interface" />
+      <Type Name="IStopListener" Kind="Interface" />
+      <Type Name="ITimeoutListener" Kind="Interface" />
+      <Type Name="PresentationState" Kind="Class" />
+      <Type Name="PresentationStateEventArgs" Kind="Class" />
+      <Type Name="PropertyID" Kind="Class" />
+      <Type Name="ReadEventArgs" Kind="Class" />
+      <Type Name="SavedFrame" Kind="Class" />
+      <Type Name="ScanEngineInputDevice" Kind="Class" />
+      <Type Name="Symbology" Kind="Class" />
+      <Type Name="VisualFormatter" Kind="Class" />
+      <Type Name="VisualFormatter+Item" Kind="Class" />
+      <Type Name="VisualFormatter+Item+Property" Kind="Class" />
+      <Type Name="VisualFormatter+Item+Property+Direction" Kind="Class" />
+      <Type Name="VisualFormatter+Item+Property+Type" Kind="Class" />
+      <Type Name="VisualFormatter+Item+Type" Kind="Class" />
+      <Type Name="VisualFormatter+PersistenceType" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Decode.Configuration">
+      <Type Name="Aztec" Kind="Class" />
+      <Type Name="BeamMode" Kind="Class" />
+      <Type Name="CameraWedge" Kind="Class" />
+      <Type Name="CameraWedgeBarcodeOrientation" Kind="Class" />
+      <Type Name="CameraWedgeBarcodePosition" Kind="Class" />
+      <Type Name="CameraWedgeBarcodeType" Kind="Class" />
+      <Type Name="CharacterSetMode" Kind="Class" />
+      <Type Name="Codabar" Kind="Class" />
+      <Type Name="Code128" Kind="Class" />
+      <Type Name="Code128Aggressiveness" Kind="Class" />
+      <Type Name="Code128ExtendedAsciiMode" Kind="Class" />
+      <Type Name="Code39" Kind="Class" />
+      <Type Name="Code39Aggressiveness" Kind="Class" />
+      <Type Name="Code93" Kind="Class" />
+      <Type Name="Composite" Kind="Class" />
+      <Type Name="Datamatrix" Kind="Class" />
+      <Type Name="DatamatrixAggressiveness" Kind="Class" />
+      <Type Name="DatamatrixMirror" Kind="Class" />
+      <Type Name="DatamatrixOpMode" Kind="Class" />
+      <Type Name="DecodeResultCrop" Kind="Class" />
+      <Type Name="DecodingNotification" Kind="Class" />
+      <Type Name="Digimarc" Kind="Class" />
+      <Type Name="DigimarcDataFormat" Kind="Class" />
+      <Type Name="Discrete25" Kind="Class" />
+      <Type Name="DisplayNotification" Kind="Class" />
+      <Type Name="DotCode" Kind="Class" />
+      <Type Name="Ean13" Kind="Class" />
+      <Type Name="Ean8" Kind="Class" />
+      <Type Name="ECIPolicy" Kind="Class" />
+      <Type Name="ExtScannerSource" Kind="Class" />
+      <Type Name="Formatting" Kind="Class" />
+      <Type Name="FrameCaptureConfiguration" Kind="Class" />
+      <Type Name="FrameCaptureFormat" Kind="Class" />
+      <Type Name="FrameCaptureMode" Kind="Class" />
+      <Type Name="GoodRead" Kind="Class" />
+      <Type Name="GoodReadOverlayDisplayPolicy" Kind="Class" />
+      <Type Name="GoodReadOverlayPositionPolicy" Kind="Class" />
+      <Type Name="GoodReadOverlayShapePolicy" Kind="Class" />
+      <Type Name="Gs1Conversion2d" Kind="Class" />
+      <Type Name="Gs1DataBar_14" Kind="Class" />
+      <Type Name="Gs1DataBar_Expanded" Kind="Class" />
+      <Type Name="Gs1DataBar_Limited" Kind="Class" />
+      <Type Name="Gs1LabelSetTransmitMode" Kind="Class" />
+      <Type Name="GtinFormat" Kind="Class" />
+      <Type Name="HanXin" Kind="Class" />
+      <Type Name="IlluminationTime" Kind="Class" />
+      <Type Name="IlluminationType" Kind="Class" />
+      <Type Name="ImageCaptureProfile" Kind="Class" />
+      <Type Name="InputType" Kind="Class" />
+      <Type Name="IntentDeliveryMode" Kind="Class" />
+      <Type Name="IntentWedge" Kind="Class" />
+      <Type Name="Interleaved25" Kind="Class" />
+      <Type Name="Interleaved25Aggressiveness" Kind="Class" />
+      <Type Name="Inverse" Kind="Class" />
+      <Type Name="InverseMode" Kind="Class" />
+      <Type Name="Isbt128Mode" Kind="Class" />
+      <Type Name="KeyboardWedge" Kind="Class" />
+      <Type Name="KeyWedgeMode" Kind="Class" />
+      <Type Name="LengthControlMode" Kind="Class" />
+      <Type Name="LinearQuietZones" Kind="Class" />
+      <Type Name="Matrix25" Kind="Class" />
+      <Type Name="Maxicode" Kind="Class" />
+      <Type Name="Micropdf417" Kind="Class" />
+      <Type Name="MicroQR" Kind="Class" />
+      <Type Name="Msi" Kind="Class" />
+      <Type Name="MsiAggressiveness" Kind="Class" />
+      <Type Name="MultiScan" Kind="Class" />
+      <Type Name="OCR" Kind="Class" />
+      <Type Name="PartialResultMode" Kind="Class" />
+      <Type Name="Pdf417" Kind="Class" />
+      <Type Name="PostalAustralian" Kind="Class" />
+      <Type Name="PostalJapan" Kind="Class" />
+      <Type Name="PostalKix" Kind="Class" />
+      <Type Name="PostalRoyalMail" Kind="Class" />
+      <Type Name="PostalUsPlanet" Kind="Class" />
+      <Type Name="PostalUsPostnet" Kind="Class" />
+      <Type Name="PostalUsps4State" Kind="Class" />
+      <Type Name="PresentationMode" Kind="Class" />
+      <Type Name="PreviewDisplayMode" Kind="Class" />
+      <Type Name="QRCode" Kind="Class" />
+      <Type Name="QRMirror" Kind="Class" />
+      <Type Name="ScanMode" Kind="Class" />
+      <Type Name="ScannerOptions" Kind="Class" />
+      <Type Name="ScannerProperties" Kind="Class" />
+      <Type Name="SendCodeID" Kind="Class" />
+      <Type Name="SnapOcr" Kind="Class" />
+      <Type Name="SnapOcrFirstSelectionMode" Kind="Class" />
+      <Type Name="SnapOcrResultsCombination" Kind="Class" />
+      <Type Name="SnapOcrResultSettings" Kind="Class" />
+      <Type Name="SnapOcrRoiSettings" Kind="Class" />
+      <Type Name="SnapOcrRoiSettings+InternalRoi" Kind="Class" />
+      <Type Name="SnapOcrRoiSettings+ReferenceRoi" Kind="Class" />
+      <Type Name="SnapOcrScanningPolicy" Kind="Class" />
+      <Type Name="SnapOcrUiCustomization" Kind="Class" />
+      <Type Name="SymbologyBase" Kind="Class" />
+      <Type Name="SymbologyLengths" Kind="Class" />
+      <Type Name="Tlc39" Kind="Class" />
+      <Type Name="ToneNotificationChannel" Kind="Class" />
+      <Type Name="ToneNotificationMode" Kind="Class" />
+      <Type Name="UpcA" Kind="Class" />
+      <Type Name="UpcE" Kind="Class" />
+      <Type Name="UpcEanAggressiveness" Kind="Class" />
+      <Type Name="UpcEanCompositeMode" Kind="Class" />
+      <Type Name="UpcEanExtensions" Kind="Class" />
+      <Type Name="WebWedge" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Decode.Utils">
+      <Type Name="GS1Parser" Kind="Class" />
+      <Type Name="GS1Parser+GS1Field" Kind="Class" />
+      <Type Name="GS1Parser+ParsingException" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device">
+      <Type Name="BatteryChargingProfile" Kind="Class" />
+      <Type Name="BootType" Kind="Class" />
+      <Type Name="DeviceException" Kind="Class" />
+      <Type Name="DeviceManager" Kind="Class" />
+      <Type Name="ErrorManager" Kind="Class" />
+      <Type Name="FailurePolicy" Kind="Class" />
+      <Type Name="FirmwareUpdatePolicy" Kind="Class" />
+      <Type Name="Intents" Kind="Class" />
+      <Type Name="PersistenceType" Kind="Class" />
+      <Type Name="UnlockKeyPolicy" Kind="Class" />
+      <Type Name="UnlockNotificationPolicy" Kind="Class" />
+      <Type Name="UnlockPolicy" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.App">
+      <Type Name="AppManager" Kind="Class" />
+      <Type Name="AppManagerException" Kind="Class" />
+      <Type Name="IPackageInstallerListener" Kind="Interface" />
+      <Type Name="PackageInstaller" Kind="Class" />
+      <Type Name="PackageInstallerEvent" Kind="Class" />
+      <Type Name="PackageInstallerEventArgs" Kind="Class" />
+      <Type Name="PackageInstallerException" Kind="Class" />
+      <Type Name="PackageInstallerResult" Kind="Class" />
+      <Type Name="PackageInstallerSession" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Battery">
+      <Type Name="BatteryDefinitions" Kind="Class" />
+      <Type Name="BatteryEvent" Kind="Class" />
+      <Type Name="BatteryEventEventArgs" Kind="Class" />
+      <Type Name="BatteryException" Kind="Class" />
+      <Type Name="BatteryInfo" Kind="Class" />
+      <Type Name="BatteryStatus" Kind="Class" />
+      <Type Name="ChargingProfile" Kind="Class" />
+      <Type Name="DLBatteryManager" Kind="Class" />
+      <Type Name="IBatteryEventListener" Kind="Interface" />
+      <Type Name="ManufacturerInfo" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Configuration">
+      <Type Name="AutoScanTriggerRange" Kind="Class" />
+      <Type Name="BatteryChargingProfilePersistencePolicy" Kind="Class" />
+      <Type Name="BlobProperty" Kind="Class" />
+      <Type Name="BluetoothSilentPairingWhitelisting" Kind="Class" />
+      <Type Name="BluetoothSilentPairingWhitelisting+IdentifierType" Kind="Class" />
+      <Type Name="BooleanProperty" Kind="Class" />
+      <Type Name="BTPairingPolicy" Kind="Class" />
+      <Type Name="CaptivePortalPolicy" Kind="Class" />
+      <Type Name="CharacterProperty" Kind="Class" />
+      <Type Name="ChargingSourcesFlags" Kind="Class" />
+      <Type Name="ClipboardPolicy" Kind="Class" />
+      <Type Name="ConfigException" Kind="Class" />
+      <Type Name="ConfigurationChangeEventArgs" Kind="Class" />
+      <Type Name="ConfigurationManager" Kind="Class" />
+      <Type Name="DatalogicScreensaver" Kind="Class" />
+      <Type Name="DatalogicScreensaver+Builder" Kind="Class" />
+      <Type Name="DesktopModePolicy" Kind="Class" />
+      <Type Name="DeviceNameSuffix" Kind="Class" />
+      <Type Name="DoNotDisturbPolicy" Kind="Class" />
+      <Type Name="DualSimPreferredCallsAndSms" Kind="Class" />
+      <Type Name="DualSimPreferredData" Kind="Class" />
+      <Type Name="DualSimStatus" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverActivationItems" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverActivationItems+ActivationItem" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverActivationItems+ActivationItem+Builder" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverActivationItems+ActivationItem+Type" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverActivationItems+Builder" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverProfiles" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverProfiles+Builder" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverProfiles+Profile" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverProfiles+Profile+Builder" Kind="Class" />
+      <Type Name="EnterpriseBatterySaverProfiles+Profile+Location" Kind="Class" />
+      <Type Name="EnumProperty" Kind="Class" />
+      <Type Name="IConfigurationChangeListener" Kind="Interface" />
+      <Type Name="IPropertyEditor" Kind="Interface" />
+      <Type Name="IPropertyGetter" Kind="Interface" />
+      <Type Name="LoggerBufferSize" Kind="Class" />
+      <Type Name="MotionTriggerSensitivity" Kind="Class" />
+      <Type Name="MultipleChoiceProperty" Kind="Class" />
+      <Type Name="NotificationPanelPolicy" Kind="Class" />
+      <Type Name="NumericProperty" Kind="Class" />
+      <Type Name="OffChargingModePolicy" Kind="Class" />
+      <Type Name="PhysicalKeyboardPolicy" Kind="Class" />
+      <Type Name="PocketModePolicy" Kind="Class" />
+      <Type Name="PowerState" Kind="Class" />
+      <Type Name="PowerState+Charge" Kind="Class" />
+      <Type Name="PowerState+CriticalFailure" Kind="Class" />
+      <Type Name="PowerState+Failure" Kind="Class" />
+      <Type Name="ProfileManager" Kind="Class" />
+      <Type Name="ProfileRuleType" Kind="Class" />
+      <Type Name="ProfileType" Kind="Class" />
+      <Type Name="Property" Kind="Class" />
+      <Type Name="PropertyGroup" Kind="Class" />
+      <Type Name="PropertyGroupID" Kind="Class" />
+      <Type Name="PropertyID" Kind="Class" />
+      <Type Name="PropertyType" Kind="Class" />
+      <Type Name="QuickSettingsTiles" Kind="Class" />
+      <Type Name="ScreensaverAnimation" Kind="Class" />
+      <Type Name="ScreensaverItem" Kind="Class" />
+      <Type Name="ScreensaverItem+Builder" Kind="Class" />
+      <Type Name="ScreensaverPolicy" Kind="Class" />
+      <Type Name="SerializableBlob" Kind="Class" />
+      <Type Name="StringArrayBlob" Kind="Class" />
+      <Type Name="StringSetBlob" Kind="Class" />
+      <Type Name="SupportedWtApplications" Kind="Class" />
+      <Type Name="TextProperty" Kind="Class" />
+      <Type Name="TouchMode" Kind="Class" />
+      <Type Name="TouchModeFlags" Kind="Class" />
+      <Type Name="UsbFunction" Kind="Class" />
+      <Type Name="UsbHostWhitelisting" Kind="Class" />
+      <Type Name="UsbWhitelistedDevice" Kind="Class" />
+      <Type Name="VirtualRAMSwapPolicy" Kind="Class" />
+      <Type Name="WhitelistingPersistence" Kind="Class" />
+      <Type Name="Wifi802Dot11Mode" Kind="Class" />
+      <Type Name="WifiBandFlags" Kind="Class" />
+      <Type Name="WifiBandSelection" Kind="Class" />
+      <Type Name="WifiNoInternetExpected" Kind="Class" />
+      <Type Name="WifiPowerSave" Kind="Class" />
+      <Type Name="WifiRoamingProfile" Kind="Class" />
+      <Type Name="WorkSchedule" Kind="Class" />
+      <Type Name="WorkSchedule+Builder" Kind="Class" />
+      <Type Name="WorkSchedule+WorkTimeInfo" Kind="Class" />
+      <Type Name="WorkSchedule+WorkTimeInfo+Builder" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Display">
+      <Type Name="DLSecondDisplayManager" Kind="Class" />
+      <Type Name="RotationSpeed" Kind="Class" />
+      <Type Name="TimeoutSleep" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Emergency">
+      <Type Name="SosTriggerAction" Kind="Class" />
+      <Type Name="SosTriggerMethod" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Info">
+      <Type Name="BarcodeScannerType" Kind="Class" />
+      <Type Name="KeyboardType" Kind="Class" />
+      <Type Name="SYSTEM" Kind="Class" />
+      <Type Name="SYSTEM+Version" Kind="Class" />
+      <Type Name="WiFiType" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Input">
+      <Type Name="ActionKey" Kind="Class" />
+      <Type Name="AdvancedKeyboard" Kind="Class" />
+      <Type Name="AdvancedKeyboard+ActionEventEventArgs" Kind="Class" />
+      <Type Name="AdvancedKeyboard+Configuration" Kind="Class" />
+      <Type Name="AdvancedKeyboard+IActionEventListener" Kind="Interface" />
+      <Type Name="AdvancedKeyboard+ILayoutChangeEventListener" Kind="Interface" />
+      <Type Name="AdvancedKeyboard+IMultitapEventListener" Kind="Interface" />
+      <Type Name="AdvancedKeyboard+Info" Kind="Class" />
+      <Type Name="AdvancedKeyboard+LayoutChangeEventEventArgs" Kind="Class" />
+      <Type Name="AdvancedKeyboard+LayoutNotificationType" Kind="Class" />
+      <Type Name="AdvancedKeyboard+MultitapSelectedEventArgs" Kind="Class" />
+      <Type Name="AdvancedKeyboard+MultitapSelectingEventArgs" Kind="Class" />
+      <Type Name="AdvancedKeyboard+Overlay" Kind="Class" />
+      <Type Name="AdvancedKeyboard+PersistenceType" Kind="Class" />
+      <Type Name="AdvancedKeyboard+Property" Kind="Class" />
+      <Type Name="AdvancedKeyboard+Resources" Kind="Class" />
+      <Type Name="AutoScanTriggerRange" Kind="Class" />
+      <Type Name="CompositionMapping" Kind="Class" />
+      <Type Name="CompositionMapping+Builder" Kind="Class" />
+      <Type Name="DelayMapping" Kind="Class" />
+      <Type Name="DLKeyEvent" Kind="Class" />
+      <Type Name="IAutoScanTrigger" Kind="Interface" />
+      <Type Name="IMotionTrigger" Kind="Interface" />
+      <Type Name="IntentMapping" Kind="Class" />
+      <Type Name="ITrigger" Kind="Interface" />
+      <Type Name="KeyActionMapping" Kind="Class" />
+      <Type Name="KeyboardManager" Kind="Class" />
+      <Type Name="KeyboardManager+VScanCode" Kind="Class" />
+      <Type Name="KeyCodeEntry" Kind="Class" />
+      <Type Name="MappingObject" Kind="Class" />
+      <Type Name="MappingTriggerPolicy" Kind="Class" />
+      <Type Name="MotionTriggerSensitivity" Kind="Class" />
+      <Type Name="StringMapping" Kind="Class" />
+      <Type Name="TouchManager" Kind="Class" />
+      <Type Name="VScanEntry" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Location">
+      <Type Name="LocationManager" Kind="Class" />
+      <Type Name="LocationMode" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Nfc">
+      <Type Name="NfcManager" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Notification">
+      <Type Name="Led" Kind="Class" />
+      <Type Name="LedManager" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Power">
+      <Type Name="PowerManager" Kind="Class" />
+      <Type Name="PowerStatusManager" Kind="Class" />
+      <Type Name="PowerStatusManager+ChargeStatus" Kind="Class" />
+      <Type Name="PowerStatusManager+CriticalFailureStatus" Kind="Class" />
+      <Type Name="PowerStatusManager+FailureStatus" Kind="Class" />
+      <Type Name="PowerStatusManager+IPowerStatusChangeListener" Kind="Interface" />
+      <Type Name="PowerStatusManager+PowerStatusChangeEventArgs" Kind="Class" />
+      <Type Name="PowerStatusManager+Status" Kind="Class" />
+      <Type Name="RebootReason" Kind="Class" />
+      <Type Name="SmartChargeManager" Kind="Class" />
+      <Type Name="SmartChargeManager+State" Kind="Class" />
+      <Type Name="SuspendTimeout" Kind="Class" />
+      <Type Name="WakeupSource" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Device.Wifi">
+      <Type Name="WifiManager" Kind="Class" />
+      <Type Name="WifiManager+SleepPolicy" Kind="Class" />
+      <Type Name="WifiProfile" Kind="Class" />
+      <Type Name="WifiProfile+Address" Kind="Class" />
+      <Type Name="WifiProfile+Authentication" Kind="Class" />
+      <Type Name="WifiProfile+Builder" Kind="Class" />
+      <Type Name="WifiProfile+CertificateType" Kind="Class" />
+      <Type Name="WifiProfile+EapMethod" Kind="Class" />
+      <Type Name="WifiProfile+EapPhase2" Kind="Class" />
+      <Type Name="WifiProfile+Proxy" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Itemtracking">
+      <Type Name="ItemTrackingException" Kind="Class" />
+      <Type Name="ItemTrackingManager" Kind="Class" />
+      <Type Name="ItemTrackingManager+EventEventArgs" Kind="Class" />
+      <Type Name="ItemTrackingManager+EventListenerEventType" Kind="Class" />
+      <Type Name="ItemTrackingManager+IEventListener" Kind="Interface" />
+      <Type Name="ItemTrackingManager+ImageSavingConfiguration" Kind="Class" />
+      <Type Name="ItemTrackingManager+ImageSavingConfiguration+Type" Kind="Class" />
+      <Type Name="ItemTrackingManager+Session" Kind="Class" />
+      <Type Name="ItemTrackingManager+Session+State" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Com.Datalogic.Softspot">
+      <Type Name="ActionType" Kind="Class" />
+      <Type Name="DecodedDuration" Kind="Class" />
+      <Type Name="ImageEnum" Kind="Class" />
+      <Type Name="ImageState" Kind="Class" />
+      <Type Name="SoftSpot" Kind="Class" />
+      <Type Name="SoftSpot+Point" Kind="Class" />
+      <Type Name="SoftSpot+WorkingArea" Kind="Class" />
+      <Type Name="SoftSpot+WorkingArea+RotationBehavior" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>datalogic-xamarin-sdk</Title>
+</Overview>

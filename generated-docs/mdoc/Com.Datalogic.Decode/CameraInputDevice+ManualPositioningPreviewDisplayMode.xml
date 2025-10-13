@@ -1,0 +1,184 @@
+<Type Name="CameraInputDevice+ManualPositioningPreviewDisplayMode" FullName="Com.Datalogic.Decode.CameraInputDevice+ManualPositioningPreviewDisplayMode">
+  <TypeSignature Language="C#" Value="public class CameraInputDevice.ManualPositioningPreviewDisplayMode : Com.Datalogic.Decode.CameraInputDevice.PreviewDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit CameraInputDevice/ManualPositioningPreviewDisplayMode extends Com.Datalogic.Decode.CameraInputDevice/PreviewDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Com.Datalogic.Decode.CameraInputDevice+PreviewDisplayMode</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManualPositioningPreviewDisplayMode (Com.Datalogic.Decode.CameraInputDevice.ManualPositioningPreviewDisplayMode.ManualPosition portraitPositioning, Com.Datalogic.Decode.CameraInputDevice.ManualPositioningPreviewDisplayMode.ManualPosition landscapePositioning);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Com.Datalogic.Decode.CameraInputDevice/ManualPositioningPreviewDisplayMode/ManualPosition portraitPositioning, class Com.Datalogic.Decode.CameraInputDevice/ManualPositioningPreviewDisplayMode/ManualPosition landscapePositioning) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="portraitPositioning" Type="Com.Datalogic.Decode.CameraInputDevice+ManualPositioningPreviewDisplayMode+ManualPosition" />
+        <Parameter Name="landscapePositioning" Type="Com.Datalogic.Decode.CameraInputDevice+ManualPositioningPreviewDisplayMode+ManualPosition" />
+      </Parameters>
+      <Docs>
+        <param name="portraitPositioning">To be added.</param>
+        <param name="landscapePositioning">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ManualPositioningPreviewDisplayMode (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapePositioning">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.CameraInputDevice.ManualPositioningPreviewDisplayMode.ManualPosition LandscapePositioning { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.CameraInputDevice/ManualPositioningPreviewDisplayMode/ManualPosition LandscapePositioning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getLandscapePositioning", "()Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;", "GetGetLandscapePositioningHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setLandscapePositioning", "(Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;)V", "GetSetLandscapePositioning_Lcom_datalogic_decode_CameraInputDevice_ManualPositioningPreviewDisplayMode_ManualPosition_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.CameraInputDevice+ManualPositioningPreviewDisplayMode+ManualPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PortraitPositioning">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.CameraInputDevice.ManualPositioningPreviewDisplayMode.ManualPosition PortraitPositioning { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.CameraInputDevice/ManualPositioningPreviewDisplayMode/ManualPosition PortraitPositioning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getPortraitPositioning", "()Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;", "GetGetPortraitPositioningHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setPortraitPositioning", "(Lcom/datalogic/decode/CameraInputDevice$ManualPositioningPreviewDisplayMode$ManualPosition;)V", "GetSetPortraitPositioning_Lcom_datalogic_decode_CameraInputDevice_ManualPositioningPreviewDisplayMode_ManualPosition_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.CameraInputDevice+ManualPositioningPreviewDisplayMode+ManualPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

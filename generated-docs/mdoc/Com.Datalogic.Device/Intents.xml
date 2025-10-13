@@ -1,0 +1,1873 @@
+<Type Name="Intents" FullName="Com.Datalogic.Device.Intents">
+  <TypeSignature Language="C#" Value="public sealed class Intents : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Intents extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/device/Intents", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Intents ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "()V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionBatteryForceCharge">
+      <MemberSignature Language="C#" Value="public const string ActionBatteryForceCharge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionBatteryForceCharge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_BATTERY_FORCE_CHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionBatteryStartLog">
+      <MemberSignature Language="C#" Value="public const string ActionBatteryStartLog;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionBatteryStartLog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_BATTERY_START_LOG")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionBatteryStopLog">
+      <MemberSignature Language="C#" Value="public const string ActionBatteryStopLog;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionBatteryStopLog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_BATTERY_STOP_LOG")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionBatterySwap">
+      <MemberSignature Language="C#" Value="public const string ActionBatterySwap;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionBatterySwap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_BATTERY_SWAP")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionBatterySwapRequest">
+      <MemberSignature Language="C#" Value="public const string ActionBatterySwapRequest;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionBatterySwapRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_BATTERY_SWAP_REQUEST")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionConfigurationBootRequired">
+      <MemberSignature Language="C#" Value="public const string ActionConfigurationBootRequired;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionConfigurationBootRequired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CONFIGURATION_BOOT_REQUIRED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionConfigurationChanged">
+      <MemberSignature Language="C#" Value="public const string ActionConfigurationChanged;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionConfigurationChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CONFIGURATION_CHANGED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionConfigurationCommit">
+      <MemberSignature Language="C#" Value="public const string ActionConfigurationCommit;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionConfigurationCommit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CONFIGURATION_COMMIT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleDeviceCorrectlyInserted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleDeviceCorrectlyInserted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleDeviceCorrectlyInserted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_DEVICE_CORRECTLY_INSERTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleDeviceExtracted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleDeviceExtracted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleDeviceExtracted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_DEVICE_EXTRACTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleDeviceLocked">
+      <MemberSignature Language="C#" Value="public const string ActionCradleDeviceLocked;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleDeviceLocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_DEVICE_LOCKED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleDeviceUnlocked">
+      <MemberSignature Language="C#" Value="public const string ActionCradleDeviceUnlocked;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleDeviceUnlocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_DEVICE_UNLOCKED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleDeviceWronglyInserted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleDeviceWronglyInserted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleDeviceWronglyInserted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_DEVICE_WRONGLY_INSERTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFailureOccurred">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFailureOccurred;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFailureOccurred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FAILURE_OCCURRED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFailureRecovered">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFailureRecovered;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFailureRecovered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FAILURE_RECOVERED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFirmwareUpgradeCompleted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFirmwareUpgradeCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFirmwareUpgradeCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FIRMWARE_UPGRADE_COMPLETED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFirmwareUpgradeError">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFirmwareUpgradeError;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFirmwareUpgradeError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FIRMWARE_UPGRADE_ERROR")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFirmwareUpgradeInProgress">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFirmwareUpgradeInProgress;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFirmwareUpgradeInProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FIRMWARE_UPGRADE_IN_PROGRESS")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleFirmwareUpgradeStarted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleFirmwareUpgradeStarted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleFirmwareUpgradeStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_FIRMWARE_UPGRADE_STARTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleLockDevice">
+      <MemberSignature Language="C#" Value="public const string ActionCradleLockDevice;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleLockDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_LOCK_DEVICE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleUnlockDevice">
+      <MemberSignature Language="C#" Value="public const string ActionCradleUnlockDevice;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleUnlockDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_UNLOCK_DEVICE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleUnlockKeyExtracted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleUnlockKeyExtracted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleUnlockKeyExtracted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_UNLOCK_KEY_EXTRACTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCradleUnlockKeyInserted">
+      <MemberSignature Language="C#" Value="public const string ActionCradleUnlockKeyInserted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionCradleUnlockKeyInserted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_CRADLE_UNLOCK_KEY_INSERTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPowerStatusChargeUpdate">
+      <MemberSignature Language="C#" Value="public const string ActionPowerStatusChargeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionPowerStatusChargeUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_POWER_STATUS_CHARGE_UPDATE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPowerStatusCriticalFailureOccurred">
+      <MemberSignature Language="C#" Value="public const string ActionPowerStatusCriticalFailureOccurred;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionPowerStatusCriticalFailureOccurred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_POWER_STATUS_CRITICAL_FAILURE_OCCURRED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPowerStatusCriticalFailureRecovered">
+      <MemberSignature Language="C#" Value="public const string ActionPowerStatusCriticalFailureRecovered;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionPowerStatusCriticalFailureRecovered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_POWER_STATUS_CRITICAL_FAILURE_RECOVERED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPowerStatusFailureOccurred">
+      <MemberSignature Language="C#" Value="public const string ActionPowerStatusFailureOccurred;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionPowerStatusFailureOccurred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_POWER_STATUS_FAILURE_OCCURRED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPowerStatusFailureRecovered">
+      <MemberSignature Language="C#" Value="public const string ActionPowerStatusFailureRecovered;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionPowerStatusFailureRecovered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_POWER_STATUS_FAILURE_RECOVERED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionSwitchForeground">
+      <MemberSignature Language="C#" Value="public const string ActionSwitchForeground;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionSwitchForeground" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_SWITCH_FOREGROUND")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionSystemFirmwareUpgrade">
+      <MemberSignature Language="C#" Value="public const string ActionSystemFirmwareUpgrade;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionSystemFirmwareUpgrade" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_SYSTEM_FIRMWARE_UPGRADE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionTrolleyDeviceCorrectlyInserted">
+      <MemberSignature Language="C#" Value="public const string ActionTrolleyDeviceCorrectlyInserted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionTrolleyDeviceCorrectlyInserted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_TROLLEY_DEVICE_CORRECTLY_INSERTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionTrolleyDeviceExtracted">
+      <MemberSignature Language="C#" Value="public const string ActionTrolleyDeviceExtracted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionTrolleyDeviceExtracted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_TROLLEY_DEVICE_EXTRACTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryEventId">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryEventId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryEventId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_EVENT_ID")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryEventTimestamp">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryEventTimestamp;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryEventTimestamp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_EVENT_TIMESTAMP")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogCapacity">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogCapacity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogCapacity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_CAPACITY")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogChargeLeft">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogChargeLeft;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogChargeLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_CHARGE_LEFT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogCurrent">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogCurrent;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogCurrent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_CURRENT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogInIdleMode">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogInIdleMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogInIdleMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_IN_IDLE_MODE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogPeriod">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogPeriod;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_PERIOD")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogSource">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogSource;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogSource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_SOURCE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogStatus">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogStatus;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_STATUS")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogTemperature">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogTemperature;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogTemperature" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_TEMPERATURE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatteryLogVoltage">
+      <MemberSignature Language="C#" Value="public const string ExtraBatteryLogVoltage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatteryLogVoltage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_LOG_VOLTAGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraBatterySwapRequest">
+      <MemberSignature Language="C#" Value="public const string ExtraBatterySwapRequest;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBatterySwapRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_BATTERY_SWAP_REQUEST")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraConfigurationChangedMap">
+      <MemberSignature Language="C#" Value="public const string ExtraConfigurationChangedMap;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraConfigurationChangedMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CONFIGURATION_CHANGED_MAP")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraConfigurationChangedTime">
+      <MemberSignature Language="C#" Value="public const string ExtraConfigurationChangedTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraConfigurationChangedTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CONFIGURATION_CHANGED_TIME")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraConfigurationErrorMap">
+      <MemberSignature Language="C#" Value="public const string ExtraConfigurationErrorMap;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraConfigurationErrorMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CONFIGURATION_ERROR_MAP")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailure">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailure;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureBadLeverPosition">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureBadLeverPosition;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureBadLeverPosition" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_BAD_LEVER_POSITION")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureBatteryAuth">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureBatteryAuth;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureBatteryAuth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_BATTERY_AUTH")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureBatteryDead">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureBatteryDead;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureBatteryDead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_BATTERY_DEAD")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureBatteryEeprom">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureBatteryEeprom;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureBatteryEeprom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_BATTERY_EEPROM")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureCharger">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureCharger;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureCharger" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_CHARGER")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureDeviceNotCharging">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureDeviceNotCharging;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureDeviceNotCharging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_DEVICE_NOT_CHARGING")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureFlashCorrupted">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureFlashCorrupted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureFlashCorrupted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_FLASH_CORRUPTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureGeneral">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureGeneral;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureGeneral" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_GENERAL")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureLeverNotCalibrated">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureLeverNotCalibrated;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureLeverNotCalibrated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_LEVER_NOT_CALIBRATED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureSolenoid">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureSolenoid;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureSolenoid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_SOLENOID")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureSolenoidOvertemperature">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureSolenoidOvertemperature;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureSolenoidOvertemperature" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_SOLENOID_OVERTEMPERATURE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureThermalProtectionPogo">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureThermalProtectionPogo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureThermalProtectionPogo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_THERMAL_PROTECTION_POGO")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureUnknown">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureUnknown;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureUnknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_UNKNOWN")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureWlcEocTimeout">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureWlcEocTimeout;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureWlcEocTimeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_WLC_EOC_TIMEOUT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureWlcFod">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureWlcFod;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureWlcFod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_WLC_FOD")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureWlcGeneral">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureWlcGeneral;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureWlcGeneral" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_WLC_GENERAL")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureWlcTx">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureWlcTx;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureWlcTx" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_WLC_TX")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFailureWrongDaisyChainConfig">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFailureWrongDaisyChainConfig;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFailureWrongDaisyChainConfig" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FAILURE_WRONG_DAISY_CHAIN_CONFIG")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraCradleFirmwareUpgradeBytes">
+      <MemberSignature Language="C#" Value="public const string ExtraCradleFirmwareUpgradeBytes;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraCradleFirmwareUpgradeBytes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_CRADLE_FIRMWARE_UPGRADE_BYTES")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusCharge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusCharge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusCharge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeChargePause">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeChargePause;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeChargePause" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_CHARGE_PAUSE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeDischarge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeDischarge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeDischarge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_DISCHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeEndOfCharge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeEndOfCharge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeEndOfCharge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_END_OF_CHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeManualCharge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeManualCharge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeManualCharge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_MANUAL_CHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeNone">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeNone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_NONE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeOneTimeFullCharge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeOneTimeFullCharge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeOneTimeFullCharge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_ONE_TIME_FULL_CHARGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusChargeSmartWlc">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusChargeSmartWlc;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusChargeSmartWlc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CHARGE_SMART_WLC")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusCriticalFailure">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusCriticalFailure;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusCriticalFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CRITICAL_FAILURE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusCriticalFailureAuthentication">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusCriticalFailureAuthentication;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusCriticalFailureAuthentication" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CRITICAL_FAILURE_AUTHENTICATION")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusCriticalFailureEepromCorrupted">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusCriticalFailureEepromCorrupted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusCriticalFailureEepromCorrupted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CRITICAL_FAILURE_EEPROM_CORRUPTED")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusCriticalFailureGauge">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusCriticalFailureGauge;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusCriticalFailureGauge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_CRITICAL_FAILURE_GAUGE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusFailure">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusFailure;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_FAILURE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusFailureCold">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusFailureCold;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusFailureCold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_FAILURE_COLD")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraPowerStatusFailureHot">
+      <MemberSignature Language="C#" Value="public const string ExtraPowerStatusFailureHot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraPowerStatusFailureHot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_POWER_STATUS_FAILURE_HOT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSwitchForegroundTo">
+      <MemberSignature Language="C#" Value="public const string ExtraSwitchForegroundTo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSwitchForegroundTo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SWITCH_FOREGROUND_TO")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSystemFirmwareUpgradeAction">
+      <MemberSignature Language="C#" Value="public const string ExtraSystemFirmwareUpgradeAction;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSystemFirmwareUpgradeAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SYSTEM_FIRMWARE_UPGRADE_ACTION")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSystemFirmwareUpgradeFilePath">
+      <MemberSignature Language="C#" Value="public const string ExtraSystemFirmwareUpgradeFilePath;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSystemFirmwareUpgradeFilePath" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SYSTEM_FIRMWARE_UPGRADE_FILE_PATH")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSystemFirmwareUpgradeReboot">
+      <MemberSignature Language="C#" Value="public const string ExtraSystemFirmwareUpgradeReboot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSystemFirmwareUpgradeReboot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SYSTEM_FIRMWARE_UPGRADE_REBOOT")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSystemFirmwareUpgradeReset">
+      <MemberSignature Language="C#" Value="public const string ExtraSystemFirmwareUpgradeReset;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSystemFirmwareUpgradeReset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SYSTEM_FIRMWARE_UPGRADE_RESET")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraSystemFirmwareUpgradeWipeEsimProfiles">
+      <MemberSignature Language="C#" Value="public const string ExtraSystemFirmwareUpgradeWipeEsimProfiles;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraSystemFirmwareUpgradeWipeEsimProfiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

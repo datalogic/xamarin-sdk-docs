@@ -1,0 +1,1212 @@
+<Type Name="BarcodeManager" FullName="Com.Datalogic.Decode.BarcodeManager">
+  <TypeSignature Language="C#" Value="public class BarcodeManager : Java.Lang.Object, Com.Datalogic.Device.Configuration.IPropertyEditor, IDisposable, Java.Interop.IJavaPeerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BarcodeManager extends Java.Lang.Object implements class Android.Runtime.IJavaObject, class Com.Datalogic.Device.Configuration.IPropertyEditor, class Com.Datalogic.Device.Configuration.IPropertyGetter, class Java.Interop.IJavaPeerable, class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Android.Runtime.IJavaObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Com.Datalogic.Device.Configuration.IPropertyEditor</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Com.Datalogic.Device.Configuration.IPropertyGetter</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Java.Interop.IJavaPeerable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/decode/BarcodeManager", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BarcodeManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "()V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BarcodeManager (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionStartDecode">
+      <MemberSignature Language="C#" Value="public const string ActionStartDecode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionStartDecode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_START_DECODE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionStopDecode">
+      <MemberSignature Language="C#" Value="public const string ActionStopDecode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActionStopDecode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("ACTION_STOP_DECODE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDeinitListener">
+      <MemberSignature Language="C#" Value="public virtual int AddDeinitListener (Com.Datalogic.Decode.IDeinitListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddDeinitListener(class Com.Datalogic.Decode.IDeinitListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addDeinitListener", "(Lcom/datalogic/decode/DeinitListener;)I", "GetAddDeinitListener_Lcom_datalogic_decode_DeinitListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IDeinitListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFrameCaptureListener">
+      <MemberSignature Language="C#" Value="public virtual int AddFrameCaptureListener (Com.Datalogic.Decode.IFrameCaptureListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddFrameCaptureListener(class Com.Datalogic.Decode.IFrameCaptureListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addFrameCaptureListener", "(Lcom/datalogic/decode/FrameCaptureListener;)I", "GetAddFrameCaptureListener_Lcom_datalogic_decode_FrameCaptureListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IFrameCaptureListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFrameSaveListener">
+      <MemberSignature Language="C#" Value="public virtual int AddFrameSaveListener (Com.Datalogic.Decode.IFrameSaveListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddFrameSaveListener(class Com.Datalogic.Decode.IFrameSaveListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addFrameSaveListener", "(Lcom/datalogic/decode/FrameSaveListener;)I", "GetAddFrameSaveListener_Lcom_datalogic_decode_FrameSaveListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IFrameSaveListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddInitListener">
+      <MemberSignature Language="C#" Value="public virtual int AddInitListener (Com.Datalogic.Decode.IInitListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddInitListener(class Com.Datalogic.Decode.IInitListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addInitListener", "(Lcom/datalogic/decode/InitListener;)I", "GetAddInitListener_Lcom_datalogic_decode_InitListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IInitListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPresentationStateListener">
+      <MemberSignature Language="C#" Value="public virtual int AddPresentationStateListener (Com.Datalogic.Decode.IPresentationStateListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddPresentationStateListener(class Com.Datalogic.Decode.IPresentationStateListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addPresentationStateListener", "(Lcom/datalogic/decode/PresentationStateListener;)I", "GetAddPresentationStateListener_Lcom_datalogic_decode_PresentationStateListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IPresentationStateListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddReadListener">
+      <MemberSignature Language="C#" Value="public virtual int AddReadListener (Com.Datalogic.Decode.IReadListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddReadListener(class Com.Datalogic.Decode.IReadListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addReadListener", "(Lcom/datalogic/decode/ReadListener;)I", "GetAddReadListener_Lcom_datalogic_decode_ReadListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IReadListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddStartListener">
+      <MemberSignature Language="C#" Value="public virtual int AddStartListener (Com.Datalogic.Decode.IStartListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddStartListener(class Com.Datalogic.Decode.IStartListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addStartListener", "(Lcom/datalogic/decode/StartListener;)I", "GetAddStartListener_Lcom_datalogic_decode_StartListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IStartListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddStopListener">
+      <MemberSignature Language="C#" Value="public virtual int AddStopListener (Com.Datalogic.Decode.IStopListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddStopListener(class Com.Datalogic.Decode.IStopListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addStopListener", "(Lcom/datalogic/decode/StopListener;)I", "GetAddStopListener_Lcom_datalogic_decode_StopListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IStopListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTimeoutListener">
+      <MemberSignature Language="C#" Value="public virtual int AddTimeoutListener (Com.Datalogic.Decode.ITimeoutListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddTimeoutListener(class Com.Datalogic.Decode.ITimeoutListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addTimeoutListener", "(Lcom/datalogic/decode/TimeoutListener;)I", "GetAddTimeoutListener_Lcom_datalogic_decode_TimeoutListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.ITimeoutListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitProperties">
+      <MemberSignature Language="C#" Value="public virtual int CommitProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CommitProperties() cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyEditor.CommitProperties</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("commitProperties", "()I", "GetCommitPropertiesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentInputDevice">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.IInputDevice CurrentInputDevice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Decode.IInputDevice CurrentInputDevice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getCurrentInputDevice", "()Lcom/datalogic/decode/InputDevice;", "GetGetCurrentInputDeviceHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setCurrentInputDevice", "(Lcom/datalogic/decode/InputDevice;)V", "GetSetCurrentInputDevice_Lcom_datalogic_decode_InputDevice_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.IInputDevice</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomOcrItems">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CustomOCR&gt; CustomOcrItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.CustomOCR&gt; CustomOcrItems" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getCustomOcrItems", "()Ljava/util/List;", "GetGetCustomOcrItemsHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Decode.CustomOCR&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAllSymbologies">
+      <MemberSignature Language="C#" Value="public virtual int EnableAllSymbologies (bool enable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 EnableAllSymbologies(bool enable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("enableAllSymbologies", "(Z)I", "GetEnableAllSymbologies_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="enable" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="enable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableSymbology">
+      <MemberSignature Language="C#" Value="public virtual int EnableSymbology (Com.Datalogic.Decode.Symbology barcodeType, bool enable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 EnableSymbology(class Com.Datalogic.Decode.Symbology barcodeType, bool enable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("enableSymbology", "(Lcom/datalogic/decode/Symbology;Z)I", "GetEnableSymbology_Lcom_datalogic_decode_Symbology_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="barcodeType" Type="Com.Datalogic.Decode.Symbology" />
+        <Parameter Name="enable" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="barcodeType">To be added.</param>
+        <param name="enable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyAvailability">
+      <MemberSignature Language="C#" Value="public virtual int GetPropertyAvailability (int[] id_buffer, bool[] availability_buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetPropertyAvailability(int32[] id_buffer, bool[] availability_buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyGetter.GetPropertyAvailability(System.Int32[],System.Boolean[])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getPropertyAvailability", "([I[Z)I", "GetGetPropertyAvailability_arrayIarrayZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="availability_buffer" Type="System.Boolean[]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="availability_buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyInts">
+      <MemberSignature Language="C#" Value="public virtual int GetPropertyInts (int[] id_buffer, int[] value_buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetPropertyInts(int32[] id_buffer, int32[] value_buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyGetter.GetPropertyInts(System.Int32[],System.Int32[])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getPropertyInts", "([I[I)I", "GetGetPropertyInts_arrayIarrayIHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="value_buffer" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="value_buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyRanges">
+      <MemberSignature Language="C#" Value="public virtual int GetPropertyRanges (int[] id_buffer, int[][] property_ranges);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetPropertyRanges(int32[] id_buffer, int32[][] property_ranges) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyGetter.GetPropertyRanges(System.Int32[],System.Int32[][])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getPropertyRanges", "([I[[I)I", "GetGetPropertyRanges_arrayIarrayarrayIHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="property_ranges" Type="System.Int32[][]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="property_ranges">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyStrings">
+      <MemberSignature Language="C#" Value="public virtual int GetPropertyStrings (int[] id_buffer, string[] value_buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetPropertyStrings(int32[] id_buffer, string[] value_buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyGetter.GetPropertyStrings(System.Int32[],System.String[])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getPropertyStrings", "([I[Ljava/lang/String;)I", "GetGetPropertyStrings_arrayIarrayLjava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="value_buffer" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="value_buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInitialized">
+      <MemberSignature Language="C#" Value="public virtual bool IsInitialized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInitialized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("isInitialized", "()Z", "GetIsInitializedHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSymbologyEnabled">
+      <MemberSignature Language="C#" Value="public virtual bool IsSymbologyEnabled (Com.Datalogic.Decode.Symbology barcodeType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsSymbologyEnabled(class Com.Datalogic.Decode.Symbology barcodeType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isSymbologyEnabled", "(Lcom/datalogic/decode/Symbology;)Z", "GetIsSymbologyEnabled_Lcom_datalogic_decode_Symbology_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="barcodeType" Type="Com.Datalogic.Decode.Symbology" />
+      </Parameters>
+      <Docs>
+        <param name="barcodeType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSymbologySupported">
+      <MemberSignature Language="C#" Value="public virtual bool IsSymbologySupported (Com.Datalogic.Decode.Symbology barcodeType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsSymbologySupported(class Com.Datalogic.Decode.Symbology barcodeType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isSymbologySupported", "(Lcom/datalogic/decode/Symbology;)Z", "GetIsSymbologySupported_Lcom_datalogic_decode_Symbology_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="barcodeType" Type="Com.Datalogic.Decode.Symbology" />
+      </Parameters>
+      <Docs>
+        <param name="barcodeType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Java.Interop.IJavaPeerable.JniPeerMembers</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeycodeBarcode">
+      <MemberSignature Language="C#" Value="public static int KeycodeBarcode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property int32 KeycodeBarcode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("KEYCODE_BARCODE")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PressTrigger">
+      <MemberSignature Language="C#" Value="public virtual int PressTrigger ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 PressTrigger() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("pressTrigger", "()I", "GetPressTriggerHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Release">
+      <MemberSignature Language="C#" Value="public virtual int Release ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Release() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("release", "()I", "GetReleaseHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseTrigger">
+      <MemberSignature Language="C#" Value="public virtual int ReleaseTrigger ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 ReleaseTrigger() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("releaseTrigger", "()I", "GetReleaseTriggerHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveDeinitListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveDeinitListener (Com.Datalogic.Decode.IDeinitListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveDeinitListener(class Com.Datalogic.Decode.IDeinitListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeDeinitListener", "(Lcom/datalogic/decode/DeinitListener;)I", "GetRemoveDeinitListener_Lcom_datalogic_decode_DeinitListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IDeinitListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFrameCaptureListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveFrameCaptureListener (Com.Datalogic.Decode.IFrameCaptureListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveFrameCaptureListener(class Com.Datalogic.Decode.IFrameCaptureListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeFrameCaptureListener", "(Lcom/datalogic/decode/FrameCaptureListener;)I", "GetRemoveFrameCaptureListener_Lcom_datalogic_decode_FrameCaptureListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IFrameCaptureListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFrameSaveListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveFrameSaveListener (Com.Datalogic.Decode.IFrameSaveListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveFrameSaveListener(class Com.Datalogic.Decode.IFrameSaveListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeFrameSaveListener", "(Lcom/datalogic/decode/FrameSaveListener;)I", "GetRemoveFrameSaveListener_Lcom_datalogic_decode_FrameSaveListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IFrameSaveListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveInitListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveInitListener (Com.Datalogic.Decode.IInitListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveInitListener(class Com.Datalogic.Decode.IInitListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeInitListener", "(Lcom/datalogic/decode/InitListener;)I", "GetRemoveInitListener_Lcom_datalogic_decode_InitListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IInitListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovePresentationStateListener">
+      <MemberSignature Language="C#" Value="public virtual int RemovePresentationStateListener (Com.Datalogic.Decode.IPresentationStateListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemovePresentationStateListener(class Com.Datalogic.Decode.IPresentationStateListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removePresentationStateListener", "(Lcom/datalogic/decode/PresentationStateListener;)I", "GetRemovePresentationStateListener_Lcom_datalogic_decode_PresentationStateListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IPresentationStateListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveReadListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveReadListener (Com.Datalogic.Decode.IReadListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveReadListener(class Com.Datalogic.Decode.IReadListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeReadListener", "(Lcom/datalogic/decode/ReadListener;)I", "GetRemoveReadListener_Lcom_datalogic_decode_ReadListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IReadListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveStartListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveStartListener (Com.Datalogic.Decode.IStartListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveStartListener(class Com.Datalogic.Decode.IStartListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeStartListener", "(Lcom/datalogic/decode/StartListener;)I", "GetRemoveStartListener_Lcom_datalogic_decode_StartListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IStartListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveStopListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveStopListener (Com.Datalogic.Decode.IStopListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveStopListener(class Com.Datalogic.Decode.IStopListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeStopListener", "(Lcom/datalogic/decode/StopListener;)I", "GetRemoveStopListener_Lcom_datalogic_decode_StopListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.IStopListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveTimeoutListener">
+      <MemberSignature Language="C#" Value="public virtual int RemoveTimeoutListener (Com.Datalogic.Decode.ITimeoutListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RemoveTimeoutListener(class Com.Datalogic.Decode.ITimeoutListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeTimeoutListener", "(Lcom/datalogic/decode/TimeoutListener;)I", "GetRemoveTimeoutListener_Lcom_datalogic_decode_TimeoutListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Decode.ITimeoutListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDefaults">
+      <MemberSignature Language="C#" Value="public virtual int SetDefaults ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 SetDefaults() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setDefaults", "()I", "GetSetDefaultsHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPropertyInts">
+      <MemberSignature Language="C#" Value="public virtual int SetPropertyInts (int[] id_buffer, int[] value_buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 SetPropertyInts(int32[] id_buffer, int32[] value_buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyEditor.SetPropertyInts(System.Int32[],System.Int32[])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setPropertyInts", "([I[I)I", "GetSetPropertyInts_arrayIarrayIHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="value_buffer" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="value_buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPropertyStrings">
+      <MemberSignature Language="C#" Value="public virtual int SetPropertyStrings (int[] id_buffer, string[] value_buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 SetPropertyStrings(int32[] id_buffer, string[] value_buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Com.Datalogic.Device.Configuration.IPropertyEditor.SetPropertyStrings(System.Int32[],System.String[])</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setPropertyStrings", "([I[Ljava/lang/String;)I", "GetSetPropertyStrings_arrayIarrayLjava_lang_String_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id_buffer" Type="System.Int32[]" />
+        <Parameter Name="value_buffer" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="id_buffer">To be added.</param>
+        <param name="value_buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDecode">
+      <MemberSignature Language="C#" Value="public virtual int StartDecode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StartDecode() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("startDecode", "()I", "GetStartDecodeHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDecode">
+      <MemberSignature Language="C#" Value="public virtual int StartDecode (int timeout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StartDecode(int32 timeout) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("startDecode", "(I)I", "GetStartDecode_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeout" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timeout">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopDecode">
+      <MemberSignature Language="C#" Value="public virtual int StopDecode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StopDecode() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("stopDecode", "()I", "GetStopDecodeHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedInputDevices">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Decode.IInputDevice&gt; SupportedInputDevices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.IInputDevice&gt; SupportedInputDevices" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getSupportedInputDevices", "()Ljava/util/List;", "GetGetSupportedInputDevicesHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Decode.IInputDevice&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

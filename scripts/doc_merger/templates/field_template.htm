@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <link href="../icons/favicon.ico" rel="shortcut icon" />
+    <link href="../styles/branding.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../styles/branding-en-US.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="../scripts/branding.js" type="text/javascript"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{{FIELD_TITLE}}</title>
+    <meta content="en-us" name="Language" />
+    <meta content="{{MEMBER_NAME}} field" name="System.Keywords" />
+    <meta content="{{FULL_NAME}}.{{MEMBER_NAME}}" name="Microsoft.Help.F1" />
+    <meta content="F:{{FULL_NAME}}.{{MEMBER_NAME}}" name="Microsoft.Help.Id" />
+    <meta content="{{SUMMARY}}" name="Description" />
+    <meta content="Reference" name="Microsoft.Help.ContentType" />
+    <meta content="true" name="BrandingAware" />
+    <meta content="{{NAMESPACE}}" name="container" />
+    <meta content="{{FILE_NAME}}" name="file" />
+    <meta content="{{FILE_NAME}}" name="guid" />
+    <link
+      href="../styles/branding-Website.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="../scripts/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../scripts/branding-Website.js"
+      type="text/javascript"
+    ></script>
+    <script src="../scripts/clipboard.min.js" type="text/javascript"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input class="userDataStyle" id="userDataCache" type="hidden" />
+    <div class="pageHeader" id="PageHeader">
+      Datalogic Xamarin SDK
+      <form
+        action="#"
+        id="SearchForm"
+        method="get"
+        onsubmit="javascript:TransferToSearchPage(); return false;"
+      >
+        <input id="SearchTextBox" maxlength="200" type="text" />
+        <button id="SearchButton" type="submit"></button>
+      </form>
+    </div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav">
+        <div id="tocNav">
+          <div class="toclevel0" data-toclevel="0">
+            <a
+              class="tocCollapsed"
+              onclick="javascript: Toggle(this);"
+              href="#!"
+            />
+            <a
+              data-tochassubtree="true"
+              href="../html/R_Project_Documentation.htm"
+              title="Datalogic Xamarin SDK"
+              tocid="roottoc"
+              >Datalogic Xamarin SDK</a
+            >
+          </div>
+          <div class="toclevel0" data-toclevel="0">
+            <a
+              class="tocCollapsed"
+              onclick="javascript: Toggle(this);"
+              href="#!"
+            />
+            <a
+              data-tochassubtree="true"
+              href="../html/R_Project_Documentation.htm"
+              title="Namespaces"
+              tocid="R_Project_Documentation"
+              >Namespaces</a
+            >
+          </div>
+          <div class="toclevel0" data-toclevel="0">
+            <a
+              class="tocCollapsed"
+              onclick="javascript: Toggle(this);"
+              href="#!"
+            />
+            <a
+              data-tochassubtree="true"
+              href="../html/N_{{NAMESPACE_UNDERSCORED}}.htm"
+              title="{{NAMESPACE}}"
+              tocid="N_{{NAMESPACE_UNDERSCORED}}"
+              >{{NAMESPACE}}</a
+            >
+          </div>
+          <div class="toclevel0" data-toclevel="0">
+            <a
+              class="tocCollapsed"
+              onclick="javascript: Toggle(this);"
+              href="#!"
+            />
+            <a
+              data-tochassubtree="true"
+              href="../html/T_{{FULL_NAME_UNDERSCORED}}.htm"
+              title="{{TYPE_NAME}} Class"
+              tocid="T_{{FULL_NAME_UNDERSCORED}}"
+              >{{TYPE_NAME}} Class</a
+            >
+          </div>
+          <div class="toclevel1" data-toclevel="1" data-childrenloaded="true">
+            <a
+              class="tocExpanded"
+              onclick="javascript: Toggle(this);"
+              href="#!"
+            />
+            <a
+              data-tochassubtree="true"
+              href="../html/Fields_T_{{FULL_NAME_UNDERSCORED}}.htm"
+              title="{{TYPE_NAME}} Fields"
+              tocid="Fields_T_{{FULL_NAME_UNDERSCORED}}"
+              >{{TYPE_NAME}} Fields</a
+            >
+          </div>
+          {{FIELDS_NAVIGATION}}
+        </div>
+        <div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div>
+        <div class="tocResize" id="TocResize">
+          <img
+            alt="Click or drag to resize"
+            id="ResizeImageIncrease"
+            onclick="OnIncreaseToc()"
+            src="../icons/TocOpen.gif"
+            title="Click or drag to resize"
+          />
+          <img
+            alt="Click or drag to resize"
+            id="ResizeImageReset"
+            onclick="OnResetToc()"
+            src="../icons/TocClose.gif"
+            style="display: none"
+            title="Click or drag to resize"
+          />
+        </div>
+      </div>
+      <div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">
+              <h1>{{FIELD_TITLE}}</h1>
+            </td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <div class="summary">{{SUMMARY}}</div>
+
+        <p></p>
+        <strong>Namespace:</strong>
+        <a href="{{NAMESPACE_LINK}}">{{NAMESPACE}}</a><br />
+        <strong>Assembly:</strong> {{ASSEMBLY_INFO}}
+
+        <!-- Syntax Section -->
+        <div class="collapsibleAreaRegion">
+          <span
+            class="collapsibleRegionTitle"
+            onclick="SectionExpandCollapse('ID1RB')"
+            onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)"
+            tabindex="0"
+          >
+            <img
+              class="collapseToggle"
+              id="ID1RBToggle"
+              src="../icons/SectionExpanded.png"
+            />Syntax
+          </span>
+        </div>
+        <div class="collapsibleSection" id="ID1RBSection">{{SYNTAX}}</div>
+
+        <!-- Field Value Section (if applicable) -->
+        {{FIELD_VALUE_SECTION}}
+
+        <!-- Remarks Section (if applicable) -->
+        {{REMARKS_SECTION}}
+
+        <!-- See Also Section -->
+        <div class="collapsibleAreaRegion">
+          <span
+            class="collapsibleRegionTitle"
+            onclick="SectionExpandCollapse('ID4RB')"
+            onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)"
+            tabindex="0"
+          >
+            <img
+              class="collapseToggle"
+              id="ID4RBToggle"
+              src="../icons/SectionExpanded.png"
+            />See Also
+          </span>
+        </div>
+        <div class="collapsibleSection" id="ID4RBSection">{{SEE_ALSO}}</div>
+      </div>
+    </div>
+    <div class="pageFooter" id="pageFooter">
+      <p>
+        © 2016 Datalogic S.p.A. and/or its affiliates. All rights reserved.
+        Datalogic and the Datalogic logo are registered trademarks of Datalogic
+        S.p.A. in many countries including the U.S.A. and the E.U. All other
+        trademarks are the property of their respective owners.
+      </p>
+    </div>
+  </body>
+</html>

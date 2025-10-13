@@ -1,0 +1,206 @@
+<Type Name="SnapOcrRoiSettings" FullName="Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings">
+  <TypeSignature Language="C#" Value="public class SnapOcrRoiSettings : Com.Datalogic.Device.Configuration.SerializableBlob" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SnapOcrRoiSettings extends Com.Datalogic.Device.Configuration.SerializableBlob" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Com.Datalogic.Device.Configuration.SerializableBlob</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/decode/configuration/SnapOcrRoiSettings", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SnapOcrRoiSettings (Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings.ReferenceRoi referenceRoi, System.Collections.Generic.IList&lt;Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings.InternalRoi&gt; internalRois);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings/ReferenceRoi referenceRoi, class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings/InternalRoi&gt; internalRois) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register(".ctor", "(Lcom/datalogic/decode/configuration/SnapOcrRoiSettings$ReferenceRoi;Ljava/util/List;)V", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="referenceRoi" Type="Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings+ReferenceRoi" />
+        <Parameter Name="internalRois" Type="System.Collections.Generic.IList&lt;Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings+InternalRoi&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="referenceRoi">To be added.</param>
+        <param name="internalRois">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SnapOcrRoiSettings (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetReferenceRoi">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings.ReferenceRoi GetReferenceRoi ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings/ReferenceRoi GetReferenceRoi() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getReferenceRoi", "()Lcom/datalogic/decode/configuration/SnapOcrRoiSettings$ReferenceRoi;", "GetGetReferenceRoiHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings+ReferenceRoi</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRois">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IList&lt;Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings.InternalRoi&gt; InternalRois { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings/InternalRoi&gt; InternalRois" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getInternalRois", "()Ljava/util/List;", "GetGetInternalRoisHandler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: Android.Runtime.Register("setInternalRois", "(Ljava/util/List;)V", "GetSetInternalRois_Ljava_util_List_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings+InternalRoi&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReferenceRoi">
+      <MemberSignature Language="C#" Value="public virtual void SetReferenceRoi (Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings.ReferenceRoi referenceRoi);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetReferenceRoi(class Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings/ReferenceRoi referenceRoi) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setReferenceRoi", "(Lcom/datalogic/decode/configuration/SnapOcrRoiSettings$ReferenceRoi;)V", "GetSetReferenceRoi_Lcom_datalogic_decode_configuration_SnapOcrRoiSettings_ReferenceRoi_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="referenceRoi" Type="Com.Datalogic.Decode.Configuration.SnapOcrRoiSettings+ReferenceRoi" />
+      </Parameters>
+      <Docs>
+        <param name="referenceRoi">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
