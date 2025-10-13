@@ -1,0 +1,322 @@
+JavaDoc Extraction Debug Information
+==================================================
+
+Total JavaDoc files loaded: 163
+
+All loaded keys:
+  - com.datalogic.cradle.DLCradleManager
+  - com.datalogic.cradle.Failure
+  - com.datalogic.decode.BarcodeID
+  - com.datalogic.decode.BarcodeManager
+  - com.datalogic.decode.CameraInputDevice
+  - com.datalogic.decode.CameraInputDevice.FitScreenPreviewDisplayMode
+  - com.datalogic.decode.CameraInputDevice.ManualPositioningPreviewDisplayMode
+  - com.datalogic.decode.CameraInputDevice.ManualPositioningPreviewDisplayMode.ManualPosition
+  - com.datalogic.decode.CameraInputDevice.PreviewDisplayMode
+  - com.datalogic.decode.CameraInputDevice.PreviewSize
+  - com.datalogic.decode.CustomOCR
+  - com.datalogic.decode.DecodeResult
+  - com.datalogic.decode.FrameCaptureListener
+  - com.datalogic.decode.FrameSaveListener
+  - com.datalogic.decode.GoodReadOverlayManager
+  - com.datalogic.decode.GoodReadOverlayManager.PersistenceType
+  - com.datalogic.decode.InputDevice
+  - com.datalogic.decode.InputDevice.Type
+  - com.datalogic.decode.PresentationState
+  - com.datalogic.decode.PresentationStateListener
+  - com.datalogic.decode.PropertyID
+  - com.datalogic.decode.ScanEngineInputDevice
+  - com.datalogic.decode.Symbology
+  - com.datalogic.decode.configuration.CameraWedge
+  - com.datalogic.decode.configuration.CameraWedgeBarcodeOrientation
+  - com.datalogic.decode.configuration.CameraWedgeBarcodePosition
+  - com.datalogic.decode.configuration.CameraWedgeBarcodeType
+  - com.datalogic.decode.configuration.Code128
+  - com.datalogic.decode.configuration.Code128ExtendedAsciiMode
+  - com.datalogic.decode.configuration.Datamatrix
+  - com.datalogic.decode.configuration.DecodeResultCrop
+  - com.datalogic.decode.configuration.DecodingNotification
+  - com.datalogic.decode.configuration.Digimarc
+  - com.datalogic.decode.configuration.DigimarcDataFormat
+  - com.datalogic.decode.configuration.ECIPolicy
+  - com.datalogic.decode.configuration.Ean13
+  - com.datalogic.decode.configuration.ExtScannerSource
+  - com.datalogic.decode.configuration.Formatting
+  - com.datalogic.decode.configuration.FrameCaptureConfiguration
+  - com.datalogic.decode.configuration.FrameCaptureFormat
+  - com.datalogic.decode.configuration.FrameCaptureMode
+  - com.datalogic.decode.configuration.GoodRead
+  - com.datalogic.decode.configuration.GoodReadOverlayDisplayPolicy
+  - com.datalogic.decode.configuration.GoodReadOverlayPositionPolicy
+  - com.datalogic.decode.configuration.GoodReadOverlayShapePolicy
+  - com.datalogic.decode.configuration.Gs1Conversion2d
+  - com.datalogic.decode.configuration.Gs1LabelSetTransmitMode
+  - com.datalogic.decode.configuration.GtinFormat
+  - com.datalogic.decode.configuration.InputType
+  - com.datalogic.decode.configuration.IntentWedge
+  - com.datalogic.decode.configuration.KeyboardWedge
+  - com.datalogic.decode.configuration.PresentationMode
+  - com.datalogic.decode.configuration.PreviewDisplayMode
+  - com.datalogic.decode.configuration.QRCode
+  - com.datalogic.decode.configuration.ScannerOptions
+  - com.datalogic.decode.configuration.ScannerProperties
+  - com.datalogic.decode.configuration.SnapOcr
+  - com.datalogic.decode.configuration.SnapOcrFirstSelectionMode
+  - com.datalogic.decode.configuration.SnapOcrResultSettings
+  - com.datalogic.decode.configuration.SnapOcrResultsCombination
+  - com.datalogic.decode.configuration.SnapOcrRoiSettings
+  - com.datalogic.decode.configuration.SnapOcrRoiSettings.InternalRoi
+  - com.datalogic.decode.configuration.SnapOcrRoiSettings.ReferenceRoi
+  - com.datalogic.decode.configuration.SnapOcrScanningPolicy
+  - com.datalogic.decode.configuration.SnapOcrUiCustomization
+  - com.datalogic.decode.configuration.Tlc39
+  - com.datalogic.decode.configuration.ToneNotificationMode
+  - com.datalogic.decode.utils.GS1Parser
+  - com.datalogic.device.BatteryChargingProfile
+  - com.datalogic.device.DeviceManager
+  - com.datalogic.device.Intents
+  - com.datalogic.device.app.AppManager
+  - com.datalogic.device.app.AppManagerException
+  - com.datalogic.device.app.PackageInstaller
+  - com.datalogic.device.app.PackageInstallerException
+  - com.datalogic.device.app.PackageInstallerResult
+  - com.datalogic.device.app.PackageInstallerSession
+  - com.datalogic.device.battery.BatteryDefinitions
+  - com.datalogic.device.battery.BatteryInfo
+  - com.datalogic.device.battery.BatteryStatus
+  - com.datalogic.device.battery.ChargingProfile
+  - com.datalogic.device.battery.ManufacturerInfo
+  - com.datalogic.device.configuration.BTPairingPolicy
+  - com.datalogic.device.configuration.BatteryChargingProfilePersistencePolicy
+  - com.datalogic.device.configuration.BlobProperty
+  - com.datalogic.device.configuration.BluetoothSilentPairingWhitelisting
+  - com.datalogic.device.configuration.BluetoothSilentPairingWhitelisting.IdentifierType
+  - com.datalogic.device.configuration.BooleanProperty
+  - com.datalogic.device.configuration.CaptivePortalPolicy
+  - com.datalogic.device.configuration.CharacterProperty
+  - com.datalogic.device.configuration.ChargingSourcesFlags
+  - com.datalogic.device.configuration.ClipboardPolicy
+  - com.datalogic.device.configuration.DatalogicScreensaver
+  - com.datalogic.device.configuration.DatalogicScreensaver.Builder
+  - com.datalogic.device.configuration.DesktopModePolicy
+  - com.datalogic.device.configuration.DeviceNameSuffix
+  - com.datalogic.device.configuration.DoNotDisturbPolicy
+  - com.datalogic.device.configuration.EnterpriseBatterySaverActivationItems
+  - com.datalogic.device.configuration.EnterpriseBatterySaverActivationItems.ActivationItem
+  - com.datalogic.device.configuration.EnterpriseBatterySaverActivationItems.ActivationItem.Builder
+  - com.datalogic.device.configuration.EnterpriseBatterySaverActivationItems.ActivationItem.Type
+  - com.datalogic.device.configuration.EnterpriseBatterySaverActivationItems.Builder
+  - com.datalogic.device.configuration.EnterpriseBatterySaverProfiles
+  - com.datalogic.device.configuration.EnterpriseBatterySaverProfiles.Builder
+  - com.datalogic.device.configuration.EnterpriseBatterySaverProfiles.Profile
+  - com.datalogic.device.configuration.EnterpriseBatterySaverProfiles.Profile.Builder
+  - com.datalogic.device.configuration.EnterpriseBatterySaverProfiles.Profile.Location
+  - com.datalogic.device.configuration.EnumProperty
+  - com.datalogic.device.configuration.LoggerBufferSize
+  - com.datalogic.device.configuration.MultipleChoiceProperty
+  - com.datalogic.device.configuration.NotificationPanelPolicy
+  - com.datalogic.device.configuration.NumericProperty
+  - com.datalogic.device.configuration.PhysicalKeyboardPolicy
+  - com.datalogic.device.configuration.PocketModePolicy
+  - com.datalogic.device.configuration.ProfileManager
+  - com.datalogic.device.configuration.ProfileRuleType
+  - com.datalogic.device.configuration.Property
+  - com.datalogic.device.configuration.PropertyGroup
+  - com.datalogic.device.configuration.PropertyGroupID
+  - com.datalogic.device.configuration.PropertyID
+  - com.datalogic.device.configuration.PropertyType
+  - com.datalogic.device.configuration.QuickSettingsTiles
+  - com.datalogic.device.configuration.ScreensaverAnimation
+  - com.datalogic.device.configuration.ScreensaverItem
+  - com.datalogic.device.configuration.ScreensaverItem.Builder
+  - com.datalogic.device.configuration.ScreensaverPolicy
+  - com.datalogic.device.configuration.SerializableBlob
+  - com.datalogic.device.configuration.StringArrayBlob
+  - com.datalogic.device.configuration.StringSetBlob
+  - com.datalogic.device.configuration.SupportedWtApplications
+  - com.datalogic.device.configuration.TextProperty
+  - com.datalogic.device.configuration.TouchMode
+  - com.datalogic.device.configuration.TouchModeFlags
+  - com.datalogic.device.configuration.UsbHostWhitelisting
+  - com.datalogic.device.configuration.UsbWhitelistedDevice
+  - com.datalogic.device.configuration.VirtualRAMSwapPolicy
+  - com.datalogic.device.configuration.WhitelistingPersistence
+  - com.datalogic.device.configuration.Wifi802Dot11Mode
+  - com.datalogic.device.configuration.WifiBandFlags
+  - com.datalogic.device.configuration.WifiNoInternetExpected
+  - com.datalogic.device.configuration.WifiRoamingProfile
+  - com.datalogic.device.configuration.WorkSchedule
+  - com.datalogic.device.configuration.WorkSchedule.Builder
+  - com.datalogic.device.configuration.WorkSchedule.WorkTimeInfo
+  - com.datalogic.device.configuration.WorkSchedule.WorkTimeInfo.Builder
+  - com.datalogic.device.info.WiFiType
+  - com.datalogic.device.input.CompositionMapping
+  - com.datalogic.device.input.CompositionMapping.Builder
+  - com.datalogic.device.input.DLKeyEvent
+  - com.datalogic.device.input.DelayMapping
+  - com.datalogic.device.input.IntentMapping
+  - com.datalogic.device.input.KeyActionMapping
+  - com.datalogic.device.input.KeyboardManager
+  - com.datalogic.device.input.MappingObject
+  - com.datalogic.device.input.MappingTriggerPolicy
+  - com.datalogic.device.input.StringMapping
+  - com.datalogic.device.input.VScanEntry
+  - com.datalogic.device.notification.Led
+  - com.datalogic.device.power.SmartChargeManager
+  - com.datalogic.device.power.SmartChargeManager.State
+  - com.datalogic.device.power.WakeupSource
+  - constant-values
+  - deprecated-list
+
+Barcode-related keys:
+  - com.datalogic.decode.BarcodeID
+  - com.datalogic.decode.BarcodeManager
+  - com.datalogic.decode.configuration.CameraWedgeBarcodeOrientation
+  - com.datalogic.decode.configuration.CameraWedgeBarcodePosition
+  - com.datalogic.decode.configuration.CameraWedgeBarcodeType
+
+Extraction Results:
+
+Class: com.datalogic.decode.BarcodeManager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.
+
+Class: com/datalogic/decode/BarcodeManager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.
+
+Class: Com.Datalogic.Decode.BarcodeManager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.
+
+Class: Com/Datalogic/Decode/BarcodeManager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.
+
+Class: com.datalogic.decode.barcodemanager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.
+
+Class: com/datalogic/decode/barcodemanager
+Summary: BarcodeManager gives developers access to decoder
+            related methods of the device.
+Remarks: To decode bar codes with this class, use the following steps: Obtain an instance of BarcodeManager with BarcodeManager() ; Register the listeners needed in your application from the
+                available ones: StartListener, ReadListener, StopListener and
+                TimeoutListener; To begin a decode session, call startDecode() . Your registered StartListener/ReadListener/TimeoutListener
+                will be called when a successful decode occurs or if the
+                configured timeout expires, etc; Call stopDecode() to
+                end the decode session; Call release() to
+                  release all registered
+                  StartListener/ReadListener/TimeoutListener/StopListener. Configuration persistance: All the configuration changes
+              done using the BarcodeManager are natively not
+              persistent to the device reboot, they are kept only in the current
+              device session. If you want to persist your changes in flash and
+              keep them across a system reboot the only existing way is to call
+              explicitally commitProperties() . Beware that the decoding system configuration is restored from
+              flash every time the decoding service restart and so any
+              configuration not stored persistently could be lost if the service
+              is killed (and consequently restarted) by the Android OS. It is a
+              rare event that could happens for many reasons (low resources,
+              execution exception, not responding service, etc...), the decoding
+              system is usually restored but any configuration not stored
+              persistently could be lost.

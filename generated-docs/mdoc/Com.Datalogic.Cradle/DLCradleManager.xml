@@ -1,0 +1,848 @@
+<Type Name="DLCradleManager" FullName="Com.Datalogic.Cradle.DLCradleManager">
+  <TypeSignature Language="C#" Value="public class DLCradleManager : Java.Lang.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DLCradleManager extends Java.Lang.Object" />
+  <AssemblyInfo>
+    <AssemblyName>datalogic-xamarin-sdk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Java.Lang.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Android.Runtime.Register("com/datalogic/cradle/DLCradleManager", DoNotGenerateAcw=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected DLCradleManager (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(native int javaReference, valuetype Android.Runtime.JniHandleOwnership transfer) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="javaReference" Type="System.IntPtr" />
+        <Parameter Name="transfer" Type="Android.Runtime.JniHandleOwnership" />
+      </Parameters>
+      <Docs>
+        <param name="javaReference">To be added.</param>
+        <param name="transfer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFailureEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool AddFailureEventListener (Com.Datalogic.Cradle.ICradleFailureEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AddFailureEventListener(class Com.Datalogic.Cradle.ICradleFailureEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addFailureEventListener", "(Lcom/datalogic/cradle/CradleFailureEventListener;)Z", "GetAddFailureEventListener_Lcom_datalogic_cradle_CradleFailureEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleFailureEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddInsertionEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool AddInsertionEventListener (Com.Datalogic.Cradle.ICradleInsertionEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AddInsertionEventListener(class Com.Datalogic.Cradle.ICradleInsertionEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addInsertionEventListener", "(Lcom/datalogic/cradle/CradleInsertionEventListener;)Z", "GetAddInsertionEventListener_Lcom_datalogic_cradle_CradleInsertionEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleInsertionEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddUnlockEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool AddUnlockEventListener (Com.Datalogic.Cradle.ICradleUnlockEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AddUnlockEventListener(class Com.Datalogic.Cradle.ICradleUnlockEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addUnlockEventListener", "(Lcom/datalogic/cradle/CradleUnlockEventListener;)Z", "GetAddUnlockEventListener_Lcom_datalogic_cradle_CradleUnlockEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleUnlockEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddUnlockKeyEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool AddUnlockKeyEventListener (Com.Datalogic.Cradle.ICradleUnlockKeyEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AddUnlockKeyEventListener(class Com.Datalogic.Cradle.ICradleUnlockKeyEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("addUnlockKeyEventListener", "(Lcom/datalogic/cradle/CradleUnlockKeyEventListener;)Z", "GetAddUnlockKeyEventListener_Lcom_datalogic_cradle_CradleUnlockKeyEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleUnlockKeyEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableSourcePowerLevel">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Cradle.AvailableSourcePower AvailableSourcePowerLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Cradle.AvailableSourcePower AvailableSourcePowerLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getAvailableSourcePowerLevel", "()Lcom/datalogic/cradle/AvailableSourcePower;", "GetGetAvailableSourcePowerLevelHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.AvailableSourcePower</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlinkLed">
+      <MemberSignature Language="C#" Value="public virtual bool BlinkLed (Com.Datalogic.Cradle.CradleLed id, int colorArgb, int blinkCount, int onDurationMs, int offDurationMs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool BlinkLed(class Com.Datalogic.Cradle.CradleLed id, int32 colorArgb, int32 blinkCount, int32 onDurationMs, int32 offDurationMs) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("blinkLed", "(Lcom/datalogic/cradle/CradleLed;IIII)Z", "GetBlinkLed_Lcom_datalogic_cradle_CradleLed_IIIIHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Com.Datalogic.Cradle.CradleLed" />
+        <Parameter Name="colorArgb" Type="System.Int32" />
+        <Parameter Name="blinkCount" Type="System.Int32" />
+        <Parameter Name="onDurationMs" Type="System.Int32" />
+        <Parameter Name="offDurationMs" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="colorArgb">To be added.</param>
+        <param name="blinkCount">To be added.</param>
+        <param name="onDurationMs">To be added.</param>
+        <param name="offDurationMs">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirmwareUpgrade">
+      <MemberSignature Language="C#" Value="public virtual int FirmwareUpgrade (string binaryPath, long size);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 FirmwareUpgrade(string binaryPath, int64 size) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("firmwareUpgrade", "(Ljava/lang/String;J)I", "GetFirmwareUpgrade_Ljava_lang_String_JHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="binaryPath" Type="System.String" />
+        <Parameter Name="size" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="binaryPath">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirmwareUpgradeAbort">
+      <MemberSignature Language="C#" Value="public virtual int FirmwareUpgradeAbort ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 FirmwareUpgradeAbort() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("firmwareUpgradeAbort", "()I", "GetFirmwareUpgradeAbortHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperty">
+      <MemberSignature Language="C#" Value="public virtual Java.Lang.Object GetProperty (int propertyId, Java.Lang.Object defaultValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Java.Lang.Object GetProperty(int32 propertyId, class Java.Lang.Object defaultValue) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("getProperty", "(ILjava/lang/Object;)Ljava/lang/Object;", "GetGetProperty_ILjava_lang_Object_Handler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Java.Interop.JavaTypeParameters(new System.String[] { "T" })</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Lang.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyId" Type="System.Int32" />
+        <Parameter Name="defaultValue" Type="Java.Lang.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyId">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertionCount">
+      <MemberSignature Language="C#" Value="public virtual int InsertionCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InsertionCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getInsertionCount", "()I", "GetGetInsertionCountHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertionState">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Cradle.InsertionState InsertionState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Cradle.InsertionState InsertionState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getInsertionState", "()Lcom/datalogic/cradle/InsertionState;", "GetGetInsertionStateHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.InsertionState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public static Com.Datalogic.Cradle.DLCradleManager Instance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Com.Datalogic.Cradle.DLCradleManager Instance" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getInstance", "()Lcom/datalogic/cradle/DLCradleManager;", "")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.DLCradleManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFastChargeSupported">
+      <MemberSignature Language="C#" Value="public virtual bool IsFastChargeSupported { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFastChargeSupported" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("isFastChargeSupported", "()Z", "GetIsFastChargeSupportedHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLedSupported">
+      <MemberSignature Language="C#" Value="public virtual bool IsLedSupported (Com.Datalogic.Cradle.CradleLed id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsLedSupported(class Com.Datalogic.Cradle.CradleLed id) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isLedSupported", "(Lcom/datalogic/cradle/CradleLed;)Z", "GetIsLedSupported_Lcom_datalogic_cradle_CradleLed_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Com.Datalogic.Cradle.CradleLed" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPropertyReadOnly">
+      <MemberSignature Language="C#" Value="public virtual bool IsPropertyReadOnly (int propertyId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsPropertyReadOnly(int32 propertyId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isPropertyReadOnly", "(I)Z", "GetIsPropertyReadOnly_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propertyId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPropertySupported">
+      <MemberSignature Language="C#" Value="public virtual bool IsPropertySupported (int propertyId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsPropertySupported(int32 propertyId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("isPropertySupported", "(I)Z", "GetIsPropertySupported_IHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propertyId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JniPeerMembers">
+      <MemberSignature Language="C#" Value="public override Java.Interop.JniPeerMembers JniPeerMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Java.Interop.JniPeerMembers JniPeerMembers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Java.Interop.JniPeerMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeverStatus">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Cradle.LeverStatus LeverStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Cradle.LeverStatus LeverStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getLeverStatus", "()Lcom/datalogic/cradle/LeverStatus;", "GetGetLeverStatusHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.LeverStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockDevice">
+      <MemberSignature Language="C#" Value="public virtual void LockDevice (bool lock);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LockDevice(bool lock) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("lockDevice", "(Z)V", "GetLockDevice_ZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lock" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="lock">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebootCradle">
+      <MemberSignature Language="C#" Value="public virtual int RebootCradle ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 RebootCradle() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("rebootCradle", "()I", "GetRebootCradleHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFailureEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool RemoveFailureEventListener (Com.Datalogic.Cradle.ICradleFailureEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveFailureEventListener(class Com.Datalogic.Cradle.ICradleFailureEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeFailureEventListener", "(Lcom/datalogic/cradle/CradleFailureEventListener;)Z", "GetRemoveFailureEventListener_Lcom_datalogic_cradle_CradleFailureEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleFailureEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveInsertionEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool RemoveInsertionEventListener (Com.Datalogic.Cradle.ICradleInsertionEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveInsertionEventListener(class Com.Datalogic.Cradle.ICradleInsertionEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeInsertionEventListener", "(Lcom/datalogic/cradle/CradleInsertionEventListener;)Z", "GetRemoveInsertionEventListener_Lcom_datalogic_cradle_CradleInsertionEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleInsertionEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveUnlockEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool RemoveUnlockEventListener (Com.Datalogic.Cradle.ICradleUnlockEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveUnlockEventListener(class Com.Datalogic.Cradle.ICradleUnlockEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeUnlockEventListener", "(Lcom/datalogic/cradle/CradleUnlockEventListener;)Z", "GetRemoveUnlockEventListener_Lcom_datalogic_cradle_CradleUnlockEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleUnlockEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveUnlockKeyEventListener">
+      <MemberSignature Language="C#" Value="public virtual bool RemoveUnlockKeyEventListener (Com.Datalogic.Cradle.ICradleUnlockKeyEventListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveUnlockKeyEventListener(class Com.Datalogic.Cradle.ICradleUnlockKeyEventListener listener) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("removeUnlockKeyEventListener", "(Lcom/datalogic/cradle/CradleUnlockKeyEventListener;)Z", "GetRemoveUnlockKeyEventListener_Lcom_datalogic_cradle_CradleUnlockKeyEventListener_Handler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="Com.Datalogic.Cradle.ICradleUnlockKeyEventListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLed">
+      <MemberSignature Language="C#" Value="public virtual bool SetLed (Com.Datalogic.Cradle.CradleLed ledId, int colorARGB, bool enable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool SetLed(class Com.Datalogic.Cradle.CradleLed ledId, int32 colorARGB, bool enable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setLed", "(Lcom/datalogic/cradle/CradleLed;IZ)Z", "GetSetLed_Lcom_datalogic_cradle_CradleLed_IZHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ledId" Type="Com.Datalogic.Cradle.CradleLed" />
+        <Parameter Name="colorARGB" Type="System.Int32" />
+        <Parameter Name="enable" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ledId">To be added.</param>
+        <param name="colorARGB">To be added.</param>
+        <param name="enable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLeverStatus">
+      <MemberSignature Language="C#" Value="public virtual bool SetLeverStatus (Com.Datalogic.Cradle.LeverStatus levelStatus);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool SetLeverStatus(class Com.Datalogic.Cradle.LeverStatus levelStatus) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setLeverStatus", "(Lcom/datalogic/cradle/LeverStatus;)Z", "GetSetLeverStatus_Lcom_datalogic_cradle_LeverStatus_Handler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levelStatus" Type="Com.Datalogic.Cradle.LeverStatus" />
+      </Parameters>
+      <Docs>
+        <param name="levelStatus">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperty">
+      <MemberSignature Language="C#" Value="public virtual void SetProperty (int propertyId, Java.Lang.Object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProperty(int32 propertyId, class Java.Lang.Object value) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Android.Runtime.Register("setProperty", "(ILjava/lang/Object;)V", "GetSetProperty_ILjava_lang_Object_Handler")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Java.Interop.JavaTypeParameters(new System.String[] { "T" })</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyId" Type="System.Int32" />
+        <Parameter Name="value" Type="Java.Lang.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyId">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SlotIndex">
+      <MemberSignature Language="C#" Value="public virtual int SlotIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SlotIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getSlotIndex", "()I", "GetGetSlotIndexHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdClass">
+      <MemberSignature Language="C#" Value="protected override IntPtr ThresholdClass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ThresholdClass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThresholdType">
+      <MemberSignature Language="C#" Value="protected override Type ThresholdType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ThresholdType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Cradle.Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Cradle.Type Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getType", "()Lcom/datalogic/cradle/Type;", "GetGetTypeHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnlockKeyStatus">
+      <MemberSignature Language="C#" Value="public virtual Com.Datalogic.Cradle.UnlockKeyStatus UnlockKeyStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Com.Datalogic.Cradle.UnlockKeyStatus UnlockKeyStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("deprecated")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: Android.Runtime.Register("getUnlockKeyStatus", "()Lcom/datalogic/cradle/UnlockKeyStatus;", "GetGetUnlockKeyStatusHandler")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Com.Datalogic.Cradle.UnlockKeyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
